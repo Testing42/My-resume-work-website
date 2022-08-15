@@ -1,0 +1,24 @@
+.jumbotron {
+    font-family: 'Lobster', cursive;
+    text-align: center;
+}
+
+.display-2:hover {
+    color: violet;
+    -ms-transform: skewY(2deg);
+    transform: skewY(2deg);
+}
+
+#changeColor:hover {
+    color: violet;
+}
+
+.color {
+    color: violet;
+}
+
+.first {
+    font-size: 2vw;
+    font-weight: bolder;
+    text-decoration: underline;
+}
