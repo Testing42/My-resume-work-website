@@ -20,8 +20,19 @@
         }
         
         dt {
+            font-size: 1.6rem;
             border-top: 5px solid violet;
             border-bottom: 5px solid violet;
+        }
+
+        #slideshow-container {
+            position:relative;
+        }
+        #slideshow-container img {
+            position:absolute;
+            top:0;
+            left:0;
+            display:none;
         }
     </style>
 
@@ -47,9 +58,10 @@
     </div>
 
     <header>
+        <!-- This header will be filled in through jquery -->
     </header>
-    <h1>TEST</h1>
-    <!-- Begin page content -->
+    
+    
     <main class="flex-shrink-0">
         <div class="container">
             <div class="text-center">
@@ -57,10 +69,14 @@
             </div>
             <p class="first">The mission of MorComputation is to offer IT consulting, Automation, and Software Development with quick service and excellent communication.
             </p>
-
-            <div class="text-center">
-                <img src="img_girl.jpg" alt="Girl in a jacket" width="500" height="600">
-            </div>
+            
+                <div id="slideshow-container">
+                    <img class="slides" src="imgs/elephant2.png" alt=""/>
+                    <img class="slides" src="imgs/bear2.png" alt="" />
+                    <img class="slides" src="imgs/tiger2.png" alt=""/>
+                    <img class="slides" src="imgs/purplebackground2.png" alt=""/>
+                </div>
+           
 
             <div class="text-center">
                 <h2>An Unordered HTML List</h2>
@@ -84,8 +100,8 @@
     </main>
 
     <footer>
+        <!-- This footer will be filled in through jquery -->
     </footer>
-
 
 
     <script src="js/scripts.js"></script>
