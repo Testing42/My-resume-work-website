@@ -11,7 +11,7 @@ $(function loadbottomPages() {
 // image slider
 
 
-var imgDuration = 5000;
+var imgDuration = 8000;
         var fadeSpeed = 2000;
         var container = $('#slideshow-container');
         var curIndex = -1;

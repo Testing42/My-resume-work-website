@@ -11,6 +11,10 @@
     <meta name="author" content="Andres Morales">
 
     <style>
+        .List{
+            padding: 1000px;
+        }
+        
         dl {
             border-bottom: 5px solid violet;
             border-left: 5px solid violet;
@@ -26,13 +30,15 @@
         }
 
         #slideshow-container {
-            position:relative;
+            width: 90%;
+            height: 0;
+            padding-bottom: 35%;
+            position: relative;
         }
         #slideshow-container img {
-            position:absolute;
-            top:0;
-            left:0;
-            display:none;
+            width: 100%;
+            position: absolute;
+            border: 10px solid black;
         }
     </style>
 
@@ -53,10 +59,6 @@
 
 <body>
 
-    <div class="jumbotron">
-        <h1 class="display-2 text-center font-italic">Morcomputation</h1>
-    </div>
-
     <header>
         <!-- This header will be filled in through jquery -->
     </header>
@@ -72,30 +74,29 @@
             
                 <div id="slideshow-container">
                     <img class="slides" src="imgs/elephant2.png" alt=""/>
-                    <img class="slides" src="imgs/bear2.png" alt="" />
                     <img class="slides" src="imgs/tiger2.png" alt=""/>
                     <img class="slides" src="imgs/purplebackground2.png" alt=""/>
                 </div>
            
-
-            <div class="text-center">
-                <h2>An Unordered HTML List</h2>
-                <dl class="flex-shrink-0 bg-dark">
-                    <dt>Coffee</dt>
-                    <dd>black hot drink</dd>
-                    <dt>Milk</dt>
-                    <dd>white cold drink</dd>
-                    <dt>Coffee</dt>
-                    <dd>black hot drink</dd>
-                    <dt>Milk</dt>
-                    <dd>white cold drink</dd>
-                    <dt>Coffee</dt>
-                    <dd>black hot drink</dd>
-                    <dt>Milk</dt>
-                    <dd>white cold drink</dd>
-                </dl>
+            </div class="List">
+                <div class="text-center">
+                    <h2>An Unordered HTML List</h2>
+                    <dl class="flex-shrink-0 bg-dark">
+                        <dt>Coffee</dt>
+                        <dd>black hot drink</dd>
+                        <dt>Milk</dt>
+                        <dd>white cold drink</dd>
+                        <dt>Coffee</dt>
+                        <dd>black hot drink</dd>
+                        <dt>Milk</dt>
+                        <dd>white cold drink</dd>
+                        <dt>Coffee</dt>
+                        <dd>black hot drink</dd>
+                        <dt>Milk</dt>
+                        <dd>white cold drink</dd>
+                    </dl>
+                </div>
             </div>
-
         </div>
     </main>
 
