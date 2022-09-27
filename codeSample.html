@@ -52,23 +52,38 @@
     }
     
     .content {
-      padding: 0 18px;
       margin-bottom: 2vw;
       margin-right: 1vw;
       margin-left: 1vw;
       max-height: 0;
-      overflow: hidden;
-      transition: max-height 0.2s ease-out;
+      overflow: auto;
+      transition: max-height 0.3s ease-out;
       background-color: black;
     }
 
     .flex-shrink-0{
         margin-top: 8%;
-        margin-bottom: 8;
+        margin-bottom: 8%;
+    }
+    #p1, #p2{
+        margin-left: 10%;
+        color: violet;
+    }
+
+    #p3{
+        color: violet;
+    }
+    img{
+        width:100%;
+    }
+
+    #color{
+        color:violet;
     }
 
     </style>
 
+    
 </html>
 
 <body>
@@ -84,19 +99,74 @@
         <button class="collapsible" onclick="collapse()">Powershell</button>
             <div class="content">
                 <button onclick="copyToClipboard('#p1')">Copy</button>
-                <p id="p1">Hello, I'm TEXT 1</p>
+                <p id="p1">
+                    #The location of the host.txt file must be given below.
+                    <br>
+                    $computers = get-content C:\Users\amorales\Documents\hosts.txt
+                    <br>
+                    foreach ($computer in $computers) {
+                    <br>
+                    $remoteFilePath = \\$computer\c$\Users\Public\Documents\presentation.mp4
+                    <br>
+                    Copy-Item -Path \\oac1deptshare\marketing\store\StoreMBRBoard.mp4 -Destination $remoteFilePath -Force
+                    <br>
+                    Write-Host "I've just copied the file to $remoteFilePath"
+                    <br>
+                    }
+                </p>
             </div>
         <button class="collapsible" onclick="collapse()">Python</button>
             <div class="content">
                 <button onclick="copyToClipboard('#p2')">Copy</button>
-                <p id="p2">Hi, I'm the 2nd TEXT</p>
+                <p id="p2">
+
+                    import smtplib
+                    <br>
+                    gmail_user = 'email'
+                    gmail_password = 'password!'
+                    <br>
+                    sent_from = 'Keybank'
+                    to = ['email', 'email']
+                    subject = 'Important credit card info'
+                    body = 'Senorita ,\n\nYou have unusual activity on your account please contact us as soon as possible\n\nThank you.'
+                    <br>
+                    email_text = """\
+                    From: %s
+                    To: %s
+                    Subject: %s
+                    %s
+                    """ %(sent_from, ", ".join(to), subject, body)
+                    <br>
+
+                    try:
+                        conn_ssl = smtplib.SMTP_SSL('smtp.gmail.com', 465)
+                        conn_ssl.ehlo()
+                        conn_ssl.login(gmail_user, gmail_password)
+                        conn_ssl.sendmail(gmail_user, to, email_text)
+                        conn_ssl.close()
+                    <br>
+                        print('Email sent!')
+                    except:  
+                        print('Something went wrong...')
+
+                </p>
             </div>
         <button class="collapsible" onclick="collapse()">JavaScript</button>
-            <div class="content">
-                <button onclick="copyToClipboard('#p3')">Copy</button>
-                <p id="p3">Hi, I'm the 3rd TEXT</p>
-            </div>
 
+                <div class="content">
+                    <p id="p3" class="text-center">Once you have typed in a username hit enter.
+                    </p>
+                        <div class="container">
+                            <form id="userForm">
+                                <div class="form-group">
+                                    <label>Github Username:</label>
+                                    <input type="text" id="username" value="testing42" class="form-control">
+                                </div>
+                            </form>
+                            <div id="profile"></div>
+                        </div> 
+                </div>
+            
     </main>
 
     <footer>
