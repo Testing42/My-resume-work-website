@@ -186,17 +186,21 @@
             <div class="content">
                 <button onclick="copyToClipboard('#p2')">Copy</button>
                 <p id="p5">
-                    from datetime import date
-                    import pyperclip as pc
-                    import pyautogui
+                    import random, sys
+                    print('Do you want a random number between 1-10')
+                    print('Please type yes or no')
+                    answer = input()
                     <br>
-                    now = date.today()
-                    <br>
-                    date = now.strftime("%m/%d/%y")
-                    <br>
-                    pc.copy(date)
-                    pyautogui.click()
-                    pc.paste(date)
+                    realAnswer = answer.lower()
+                    while realAnswer == 'yes':
+                                print(random.randint(1,10))
+                                print('would you like another random number yes or no')
+                                answer = input()
+                                realAnswer = answer.lower()
+                    <br>          
+
+                    print('No number for you')
+                    sys.exit()
                 </p>
             </div>
         <button class="collapsible" onclick="collapse()">JavaScript: Github API app</button>
