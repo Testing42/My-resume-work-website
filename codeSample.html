@@ -112,7 +112,7 @@
     <main class="flex-shrink-0 padding">
 
                 
-        <button class="collapsible" onclick="collapse()">Powershell</button>
+        <button class="collapsible" onclick="collapse()">Powershell: script move file to multipe pcs</button>
             <div class="content">
                 <button onclick="copyToClipboard('#p1')">Copy</button>
                 <p id="p1">
@@ -131,43 +131,57 @@
                     }
                 </p>
             </div>
-        <button class="collapsible" onclick="collapse()">Python</button>
+            <button class="collapsible" onclick="collapse()">Powershell: remotely clear teams for all users</button>
+            <div class="content">
+                <button onclick="copyToClipboard('#p1')">Copy</button>
+                <p id="p1">
+                    Write-Host "Make sure the users teams has been quit completely"
+                    Write-Host "This will clear the teams cache for all users on the pc"
+                    <br>
+                    $Computer = Read-Host "Please Enter Computer Name: "
+                    <br>
+                    Invoke-Command -ComputerName $Computer -ScriptBlock {
+                    <br>
+                    Get-ChildItem "C:\Users\*\AppData\Roaming\Microsoft\Teams\*" -directory | Where name -in ('application cache','blob_storage','databases','GPUcache','IndexedDB','Local Storage','tmp','Temp','Cache') | ForEach{Remove-Item $_.FullName -Recurse -Force}
+                    <br>
+                    }
+                </p>
+            </div>
+        <button class="collapsible" onclick="collapse()">Python: paste todays date</button>
             <div class="content">
                 <button onclick="copyToClipboard('#p2')">Copy</button>
                 <p id="p2">
-
-                    import smtplib
+                    from datetime import date
+                    import pyperclip as pc
+                    import pyautogui
                     <br>
-                    gmail_user = 'email'
-                    gmail_password = 'password!'
+                    now = date.today()
                     <br>
-                    sent_from = 'Keybank'
-                    to = ['email', 'email']
-                    subject = 'Important credit card info'
-                    body = 'Senorita ,\n\nYou have unusual activity on your account please contact us as soon as possible\n\nThank you.'
+                    date = now.strftime("%m/%d/%y")
                     <br>
-                    email_text = """\
-                    From: %s
-                    To: %s
-                    Subject: %s
-                    %s
-                    """ %(sent_from, ", ".join(to), subject, body)
-                    <br>
-
-                    try:
-                        conn_ssl = smtplib.SMTP_SSL('smtp.gmail.com', 465)
-                        conn_ssl.ehlo()
-                        conn_ssl.login(gmail_user, gmail_password)
-                        conn_ssl.sendmail(gmail_user, to, email_text)
-                        conn_ssl.close()
-                    <br>
-                        print('Email sent!')
-                    except:  
-                        print('Something went wrong...')
-
+                    pc.copy(date)
+                    pyautogui.click()
+                    pc.paste(date)
                 </p>
             </div>
-        <button class="collapsible" onclick="collapse()">JavaScript</button>
+            <button class="collapsible" onclick="collapse()">Python: Randon Number generator</button>
+            <div class="content">
+                <button onclick="copyToClipboard('#p2')">Copy</button>
+                <p id="p2">
+                    from datetime import date
+                    import pyperclip as pc
+                    import pyautogui
+                    <br>
+                    now = date.today()
+                    <br>
+                    date = now.strftime("%m/%d/%y")
+                    <br>
+                    pc.copy(date)
+                    pyautogui.click()
+                    pc.paste(date)
+                </p>
+            </div>
+        <button class="collapsible" onclick="collapse()">JavaScript: Github API app</button>
 
                 <div class="content">
                     <p id="p3" class="text-center">Once you have typed a Github username below hit enter.
