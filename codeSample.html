@@ -62,12 +62,12 @@
     }
     
 
-    #p1, #p2{
+    #p1, #p2, #p3, #p4, #p5{
         margin-left: 10%;
         color: violet;
     }
 
-    #p3{
+    #p6{
         color: violet;
     }
     img{
@@ -129,10 +129,30 @@
                     }
                 </p>
             </div>
+            <button class="collapsible" onclick="collapse()">Bash: Restart a service for 1 hour</button>
+            <div class="content">
+                <button onclick="copyToClipboard('#p1')">Copy</button>
+                <p id="p2">
+                    #!/bin/bash
+                    <br>
+                    read -p 'What service do you want to restart:' serv
+                    lowerServ=$(echo $serv | tr '[:upper:]' '[:lower:]')
+                    <br>
+                    sudo systemctl stop $lowerServ.service
+                    echo $lowerServ' service is disabled'
+                    echo '                              '
+                    echo 'waiting for 1 hour before service starts'
+                    <br>
+                    sleep 1h
+                    sudo systemctl start $lowerServ.service
+                    echo $lowerServ' service is enabled'
+                    }
+                </p>
+            </div>
             <button class="collapsible" onclick="collapse()">Powershell: remotely clear teams for all users</button>
             <div class="content">
                 <button onclick="copyToClipboard('#p1')">Copy</button>
-                <p id="p1">
+                <p id="p3">
                     Write-Host "Make sure the users teams has been quit completely"
                     Write-Host "This will clear the teams cache for all users on the pc"
                     <br>
@@ -148,7 +168,7 @@
         <button class="collapsible" onclick="collapse()">Python: paste todays date</button>
             <div class="content">
                 <button onclick="copyToClipboard('#p2')">Copy</button>
-                <p id="p2">
+                <p id="p4">
                     from datetime import date
                     import pyperclip as pc
                     import pyautogui
@@ -165,7 +185,7 @@
             <button class="collapsible" onclick="collapse()">Python: Randon Number generator</button>
             <div class="content">
                 <button onclick="copyToClipboard('#p2')">Copy</button>
-                <p id="p2">
+                <p id="p5">
                     from datetime import date
                     import pyperclip as pc
                     import pyautogui
@@ -182,7 +202,7 @@
         <button class="collapsible" onclick="collapse()">JavaScript: Github API app</button>
 
                 <div class="content">
-                    <p id="p3" class="text-center">Once you have typed a Github username below hit enter.
+                    <p id="p6" class="text-center">Once you have typed a Github username below hit enter.
                     </p>
                         <div class="container">
                             <form id="userForm">
