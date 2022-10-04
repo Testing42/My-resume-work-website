@@ -52,17 +52,12 @@
             <h1 class="color">Contact</h1>
         </div>
         <p class="first">
-            If you would like to contact me please setup a meeting using the Calendly widget below.
+            If you would like to contact me please setup a meeting using the Calendly widget below <br>
+            otherwise please send me a quick message.
         </p>
     </div>
 
     <main class="flex-shrink-0 padding">
-
-        <!-- Calendly inline widget begin -->
-        <div class="calendly-inline-widget" data-url="https://calendly.com/morcomputation?hide_landing_page_details=1&background_color=313131&text_color=ee82ee&primary_color=ee82ee"></div>
-        <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
-        <!-- Calendly inline widget end -->
-
         
         <form
         name="contact"
@@ -102,6 +97,12 @@
             </div>
     
         </form>
+
+        <!-- Calendly badge widget begin -->
+        <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+        <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+        <script type="text/javascript">window.onload = function() { Calendly.initBadgeWidget({ url: 'https://calendly.com/morcomputation', text: 'Schedule a meeting with me', color: '#1a1a1a', textColor: '#fd17d6', branding: true }); }</script>
+        <!-- Calendly badge widget end -->
     
 
     </main>
