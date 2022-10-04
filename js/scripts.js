@@ -85,7 +85,7 @@ function copyToClipboard(element) {
                                         <li class="list-group-item">Website: ${user.blog}</li>
                                         <li class="list-group-item">Email: ${user.email}</li>
                                     </ul>
-                                    <a class="btn btn-default" target="_blank" href="${user.html_url}">Visit Github</a>
+                                    <a class="btn btn-light" target="_blank" href="${user.html_url}">Visit Github</a>
                                 </div>
                                 </div>
                               </div>

@@ -27,11 +27,16 @@
         }
         .calendly-inline-widget{
             min-width:320px;
-            height:400px;
+            height:750px;
         }
         footer{
             margin-top: 20px;
         }
+
+        .hidden{
+            display: none;
+        }
+
         
     </style>
 </head>
@@ -60,6 +65,54 @@
         <div class="calendly-inline-widget" data-url="https://calendly.com/morcomputation?hide_landing_page_details=1&background_color=313131&text_color=ee82ee&primary_color=ee82ee"></div>
         <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
         <!-- Calendly inline widget end -->
+
+    
+          
+
+        <!--Section: Contact v.2-->
+    <!-- Wrapper container -->
+    
+
+        
+        <form
+        name="contact"
+        method="POST"
+        netlify-honeypot="bot-field"
+        data-netlify="true"
+        id="contactForm"
+        class="container bg-dark"
+        >
+            <p class="hidden">
+                <label>
+                    Don't fill this out if you're human: <input name="bot-field" />
+                </label>
+            </p>
+            <!-- Name input -->
+            <div class="mb-3">
+                <label class="form-label" for="name">Name</label>
+                <input class="form-control" id="name" type="text" placeholder="Name" required/>
+            </div>
+        
+            <!-- Email address input -->
+            <div class="mb-3">
+                <label class="form-label" for="emailAddress">Email Address</label>
+                <input class="form-control" id="emailAddress" type="email" placeholder="Email Address" required />
+            </div>
+        
+            <!-- Message input -->
+            <div class="mb-3">
+                <label class="form-label" for="message">Message</label>
+                <textarea class="form-control" id="message" type="text" placeholder="Message" style="height: 10rem;" required></textarea>
+            </div>
+        
+        
+            <!-- Form submit button -->
+            <div class="d-grid">
+                <button class="btn btn-light btn-lg" type="submit">Submit</button>
+            </div>
+    
+        </form>
+    
 
     </main>
 
