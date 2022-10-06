@@ -1,13 +1,13 @@
 //inserts header and bottom html
+function insertElements(){
+    $(function loadTopPages() {
+        $("header").load("/views/top.html");
+    });
 
-$(function loadTopPages() {
-    $("header").load("/views/top.html");
-});
-
-$(function loadbottomPages() {
-    $("footer").load("/views/bottom.html");
-});
-
+    $(function loadbottomPages() {
+        $("footer").load("/views/bottom.html");
+    });
+}
 // image slider
 
 
