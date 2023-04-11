@@ -175,7 +175,9 @@
                 <button onclick="copyToClipboard('#p4')">Copy</button>
                 <p id="p4">
                     from datetime import date
+                    <br>
                     import pyperclip as pc
+                    <br>
                     import pyautogui
                     <br>
                     now = date.today()
@@ -183,7 +185,9 @@
                     date = now.strftime("%m/%d/%y")
                     <br>
                     pc.copy(date)
+                    <br>
                     pyautogui.click()
+                    <br>
                     pc.paste(date)
                 </p>
             </div>
