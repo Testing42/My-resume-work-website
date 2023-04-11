@@ -24,5 +24,15 @@
     margin-bottom: 5vh;
 }
 
-
+.content {
+    -ms-overflow-style: none; /* Internet Explorer and Edge */
+    scrollbar-width: none; /* Firefox */
+    overflow: -moz-scrollbars-none; /* Older Firefox */
+  }
+  
+  .content::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, and newer Opera */
+  }
+  
+  
 

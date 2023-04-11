@@ -26,6 +26,38 @@ var curIndex = -1;
 
 
 //  Collapsible sections
+
+function collapse() {
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+  
+    function animate(opening, content, start, duration) {
+      var now = performance.now();
+      var progress = Math.min((now - start) / duration, 1);
+  
+      if (opening) {
+        content.style.maxHeight = progress * content.scrollHeight + "200px";
+      } else {
+        content.style.maxHeight = (1 - progress) * content.scrollHeight + "px";
+      }
+  
+      if (progress < 1) {
+        requestAnimationFrame(() => animate(opening, content, start, duration));
+      }
+    }
+  
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function () {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        var opening = !content.style.maxHeight || content.style.maxHeight === "0px";
+        animate(opening, content, performance.now(), 500);
+      });
+    }
+  }
+  
+  
+/*
 function collapse(){
     var coll = document.getElementsByClassName("collapsible");
     var i;
@@ -44,6 +76,7 @@ function collapse(){
         }
     }
 
+    */
 // Copy button
 function copyToClipboard(element) {
     var $temp = $("<input>");
