@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/Testing42/My-resume-work-website/issues"
   },
-  "homepage": "https://github.com/Testing42/My-resume-work-website#readme"
+  "homepage": "https://github.com/Testing42/My-resume-work-website#readme",
+  "devDependencies": {
+    "pa11y-ci": "^3.0.1"
+  }
 }
