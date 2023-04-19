@@ -22,6 +22,7 @@
     "url": "https://github.com/Testing42/My-resume-work-website/issues"
   },
   "homepage": "https://github.com/Testing42/My-resume-work-website#readme",
+  "dependencies": {},
   "devDependencies": {
     "pa11y-ci": "^3.0.1"
   }
