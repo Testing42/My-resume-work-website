@@ -24,10 +24,6 @@ jobs:
     - name: Install dependencies
       run: npm ci
 
-    - name: Run ADA compliance checks
-      run: npx pa11y-ci
-
-
     - name: Test for ADA compliance
       run: npx pa11y-ci --json > pa11y-report.json || true
 
