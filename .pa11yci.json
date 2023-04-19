@@ -1,0 +1,12 @@
+{
+    "defaults": {
+      "timeout": 5000,
+      "wait": 500
+    },
+    "urls": [
+      "https://morcomputation.com/codesample",
+      "https://morcomputation.com",
+      "https://morcomputation.com/contact.html"
+    ]
+  }
+  
