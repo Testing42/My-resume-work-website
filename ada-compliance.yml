@@ -1,0 +1,33 @@
+name: ADA Compliance Test
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: 14
+
+    - name: Install dependencies
+      run: npm ci
+
+    - name: Test for ADA compliance
+      run: npx pa11y-ci --json > pa11y-report.json || true
+
+    - name: Send report to ChatGPT
+      run: node send-report-to-chatgpt.js
+      env:
+        CHATGPT_API: ${{ secrets.CHATGPT_API }}
