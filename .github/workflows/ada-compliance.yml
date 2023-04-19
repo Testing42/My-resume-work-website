@@ -1,4 +1,4 @@
-name: ADA Compliance Test
+name: My Workflow
 
 on:
   push:
@@ -24,10 +24,13 @@ jobs:
     - name: Install dependencies
       run: npm ci
 
-    - name: Test for ADA compliance
-      run: npx pa11y-ci --json > pa11y-report.json || true
+    - name: Run ADA compliance checks
+      run: npx pa11y-ci > ada-report.txt
 
-    - name: Send report to ChatGPT
-      run: node send-report-to-chatgpt.js
-      env:
-        CHATGPT_API: ${{ secrets.CHATGPT_API }}
+    - name: Send ADA report to ChatGPT
+      run: |
+        curl -X POST https://api.openai.com/v1/engines/davinci-codex/completions \
+        -H "Content-Type: application/json" \
+        -H "Authorization: Bearer ${{ secrets.CHATGPT_API }}" \
+        --data '{"prompt": "ADA report:\n\n'$(cat ada-report.txt)'", "max_tokens": 5, "n": 1, "stop": null, "temperature": 0.7}'
+
