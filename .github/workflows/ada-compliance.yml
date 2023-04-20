@@ -31,7 +31,18 @@ jobs:
 
     - name: Send ADA report to ChatGPT
       run: |
-        curl -X POST https://api.openai.com/v1/engines/davinci-codex/completions \
-        -H "Content-Type: application/json" \
-        -H "Authorization: Bearer ${{ secrets.CHATGPT_API }}" \
-        --data '{"prompt": "ADA report:\n\n'$(cat ada-report.txt)'", "max_tokens": 5, "n": 1, "stop": null, "temperature": 0.7}'
+        $report = Get-Content -Path ada-report.txt -Raw
+        $payload = @{
+          "prompt" = "ADA report:`n`n$report"
+          "max_tokens" = 5
+          "n" = 1
+          "stop" = $null
+          "temperature" = 0.7
+        } | ConvertTo-Json
+        $headers = @{
+          "Content-Type" = "application/json"
+          "Authorization" = "Bearer ${{ secrets.CHATGPT_API }}"
+        }
+        Invoke-RestMethod -Uri "https://api.openai.com/v1/engines/davinci-codex/completions" -Method POST -Headers $headers -Body $payload
+      shell: pwsh
+
