@@ -29,7 +29,7 @@ jobs:
         server_address: smtp.gmail.com
         server_port: 465
         username: ${{ secrets.EMAIL_USERNAME }}
-        password: ${{ secrets.EMAIL_APP_PASSWORD }}
+        password: ${{ secrets.EMAIL_PASSWORD }}
         subject: ADA Compliance Report
         body: Read the attached file for the full ADA compliance report.
         to: your_email@example.com
