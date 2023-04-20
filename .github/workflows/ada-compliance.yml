@@ -34,7 +34,7 @@ jobs:
       run: npm run ada-check || true
 
     - name: Run ADA compliance checks and save the report
-      run: npx pa11y-ci > ada-report.txt || true
+      run: pa11y-ci --config .pa11yci.json || true > ada-report.txt
 
     - name: Send ADA report via email
       uses: dawidd6/action-send-mail@v2
@@ -45,7 +45,7 @@ jobs:
         password: ${{ secrets.EMAIL_PASSWORD }}
         subject: ADA Report for my website.
         body: The attached file contains the ADA compliance report.
-        to: recipient@example.com
-        from: sender@example.com
+        to: ${{ secrets.EMAIL_USERNAME }}
+        from: ${{ secrets.EMAIL_USERNAME }}
         content_type: text/plain
         attachments: ada-report.txt
