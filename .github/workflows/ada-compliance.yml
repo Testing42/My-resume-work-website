@@ -31,10 +31,9 @@ jobs:
       run: npm install -g pa11y-ci
 
     - name: Run ADA compliance checks and save the report
-      - name: Run ADA compliance checks and save the report
-      run: |
-        New-Item -Path . -Name ada-report.txt -ItemType "file" -Force
-        pa11y-ci --config .pa11yci.json > ada-report.txt 2>&1 || true
+    run: |
+      New-Item -Path . -Name ada-report.txt -ItemType "file" -Force
+      pa11y-ci --config .pa11yci.json > ada-report.txt 2>&1 || true
 
     - name: Send ADA report via email
       uses: dawidd6/action-send-mail@v2
