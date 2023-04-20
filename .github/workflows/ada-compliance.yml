@@ -26,8 +26,9 @@ jobs:
       run: npm install
     - name: Install pa11y-ci globally
       run: npm install -g pa11y-ci
+
     - name: Run ADA compliance checks and save the report
-      run: pa11y-ci > ada-report.txt || true
+      run: pa11y-ci > ada-report.txt
 
     - name: Send ADA report to ChatGPT
       run: |
@@ -43,6 +44,5 @@ jobs:
           "Content-Type" = "application/json"
           "Authorization" = "Bearer ${{ secrets.CHATGPT_API }}"
         }
-        Invoke-RestMethod -Uri "https://api.openai.com/v1/engines/davinci-codex/completions" -Method POST -Headers $headers -Body $payload
+        Invoke-RestMethod -Uri "https://api.openai.com/v1/engines/text-davinci-002/completions" -Method POST -Headers $headers -Body $payload
       shell: pwsh
-
