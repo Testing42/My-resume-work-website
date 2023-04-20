@@ -21,8 +21,7 @@ jobs:
     - name: Run ADA compliance checks and save the report
       run: |
         touch ada-report.txt
-        npx pa11y-ci --config .pa11yci.json > ada-report.txt 2>&1 || true
-
+        npx pa11y-ci --config .pa11yci.json --debug > ada-report.txt 2>&1 || true
 
 
     - name: Send email
