@@ -6,7 +6,7 @@ on:
       - master
   pull_request:
     branches:
-      - main
+      - master
 
 jobs:
   build:
@@ -23,7 +23,9 @@ jobs:
     - name: Set the Node.js environment variable
       run: echo "NODE_ENV=production" | Out-File -FilePath $env:GITHUB_ENV -Encoding utf8 -Append
     - name: Install dependencies
-      run: npm ci
+      run: npm install
+    - name: Run ADA compliance check
+      run: npm run ada-check
 
     - name: Run ADA compliance checks
       run: npx pa11y-ci > ada-report.txt
