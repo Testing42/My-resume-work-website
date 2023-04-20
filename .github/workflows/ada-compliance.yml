@@ -20,21 +20,14 @@ jobs:
       uses: actions/setup-node@v2
       with:
         node-version: 14
-
-    - name: Install npm version 7
-      run: npm install -g npm@7
-
     - name: Set the Node.js environment variable
       run: echo "NODE_ENV=production" | Out-File -FilePath $env:GITHUB_ENV -Encoding utf8 -Append
-      
     - name: Install dependencies
       run: npm install
-
     - name: Install pa11y-ci globally
       run: npm install -g pa11y-ci
-
-    - name: Run ADA compliance checks
-      run: npx pa11y-ci > ada-report.txt
+    - name: Run ADA compliance checks and save the report
+      run: pa11y-ci > ada-report.txt
 
     - name: Send ADA report to ChatGPT
       run: |
