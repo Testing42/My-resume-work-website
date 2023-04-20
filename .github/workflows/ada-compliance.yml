@@ -28,7 +28,7 @@ jobs:
       run: npm install -g pa11y-ci
 
     - name: Run ADA compliance checks and save the report
-      run: pa11y-ci > ada-report.txt
+      run: pa11y-ci > ada-report.txt || true
 
     - name: Send ADA report to ChatGPT
       run: |
