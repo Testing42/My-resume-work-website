@@ -18,11 +18,15 @@ jobs:
     - name: Install dependencies
       run: npm install
 
-    - name: Run ADA compliance checks and save the report
+    - name: Create run_pa11y.sh script
       run: |
-        touch ada-report.txt
-        npx pa11y-ci --config .pa11yci.json --json > ada-report.txt 2>&1 || true
+        echo '#!/bin/bash' > run_pa11y.sh
+        echo 'set -o pipefail' >> run_pa11y.sh
+        echo 'npx pa11y-ci --config .pa11yci.json --json > ada-report.txt' >> run_pa11y.sh
+        chmod +x run_pa11y.sh
 
+    - name: Run ADA compliance checks and save the report
+      run: ./run_pa11y.sh || true
 
     - name: Send email
       uses: dawidd6/action-send-mail@v2
@@ -37,4 +41,3 @@ jobs:
         from: ${{ secrets.EMAIL_USERNAME }}
         content_type: text/plain
         attachments: ada-report.txt
-
