@@ -32,9 +32,6 @@ jobs:
 
     - name: Install pa11y-ci globally
       run: npm install -g pa11y-ci
-      
-    - name: Run ADA compliance check
-      run: npm run ada-check
 
     - name: Run ADA compliance checks
       run: npx pa11y-ci > ada-report.txt
