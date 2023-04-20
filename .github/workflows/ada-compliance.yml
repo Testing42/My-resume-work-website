@@ -1,50 +1,39 @@
-name: ada chatgpt workflow
+name: ADA Compliance Check and Email
 
-on:
-  push:
-    branches:
-      - master
-  pull_request:
-    branches:
-      - master
+on: [push]
 
 jobs:
-  build:
-    runs-on: windows-latest
+  ada_check:
+    runs-on: ubuntu-latest
 
     steps:
     - name: Checkout repository
       uses: actions/checkout@v2
 
-    - name: Set up Node.js
+    - name: Setup Node.js
       uses: actions/setup-node@v2
       with:
         node-version: 14
 
-    - name: Set the Node.js environment variable
-      run: echo "NODE_ENV=production" | Out-File -FilePath $env:GITHUB_ENV -Encoding utf8 -Append
-
     - name: Install dependencies
-      run: npm install
-
-    - name: Install pa11y-ci globally
-      run: npm install -g pa11y-ci
+      run: npm ci
 
     - name: Run ADA compliance checks and save the report
       run: |
-        New-Item -Path . -Name ada-report.txt -ItemType "file" -Force
-        pa11y-ci --config .pa11yci.json > ada-report.txt 2>&1 || true
+        touch ada-report.txt
+        npx pa11y-ci --config .pa11yci.json > ada-report.txt 2>&1 || true
 
-    - name: Send ADA report via email
+    - name: Send email
       uses: dawidd6/action-send-mail@v2
       with:
         server_address: smtp.gmail.com
         server_port: 465
         username: ${{ secrets.EMAIL_USERNAME }}
-        password: ${{ secrets.EMAIL_PASSWORD }}
-        subject: ADA Report for my website.
-        body: The attached file contains the ADA compliance report.
-        to: ${{ secrets.EMAIL_USERNAME }}
-        from: ${{ secrets.EMAIL_USERNAME }}
+        password: ${{ secrets.EMAIL_APP_PASSWORD }}
+        subject: ADA Compliance Report
+        body: Read the attached file for the full ADA compliance report.
+        to: your_email@example.com
+        from: Your Name <your_email@example.com>
         content_type: text/plain
         attachments: ada-report.txt
+
