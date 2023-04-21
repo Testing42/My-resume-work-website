@@ -7,6 +7,10 @@ body {
     text-align: center;
 }
 
+label.form-label {
+    color: #feffff;
+}
+
 .display-2:hover {
     color: violet;
     -ms-transform: skewY(2deg);
