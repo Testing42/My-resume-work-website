@@ -1,6 +1,41 @@
+ /* Set default font stack */
 body {
+    font-family: "Times New Roman", Times, serif !important;
     background-color: #e6e6e6 !important;
   }
+  
+  /* Add fallback fonts */
+  /* Use Noto Sans if not available */
+  @font-face {
+    font-family: "Noto Sans" !important;
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local("Noto Sans"), local("NotoSans"), url("https://fonts.gstatic.com/s/notosans/v18/o-0IIpQlx3QUlC5A4PNr5TRA.woff2") format("woff2");
+  }
+  
+  /* Use Open Sans if not available */
+  @font-face {
+    font-family: "Open Sans" !important;
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local("Open Sans"), local("OpenSans"), url("https://fonts.gstatic.com/s/opensans/v28/mem8YaGs126MiZpBA-UFVZ0e.ttf") format("truetype");
+  }
+  
+  /* Use Roboto if not available */
+  @font-face {
+    font-family: "Roboto" !important;
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local("Roboto"), local("Roboto-Regular"), url("https://fonts.gstatic.com/s/roboto/v29/KFOmCnqEu92Fr1Mu4mxK.woff2") format("woff2");
+  }
+  
+  /* Import additional fonts from Google Fonts */
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+  
 
 .jumbotron {
     font-family: 'Lobster', cursive;
