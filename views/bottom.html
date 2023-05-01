@@ -46,10 +46,12 @@
             border-top: 3px solid violet;
         }
 
-        @media screen and (max-width: 768px) {
-            .fa {
-                visibility: hidden;
-            }
+        .my-element {
+            -webkit-transform: translateX(100px); /* Safari and Chrome */
+            -moz-transform: translateX(100px); /* Firefox */
+            -ms-transform: translateX(100px); /* IE 9 */
+            -o-transform: translateX(100px); /* Opera */
+            transform: translateX(100px);
         }
     </style>
 
