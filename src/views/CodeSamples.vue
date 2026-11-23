@@ -224,33 +224,6 @@ export default {
 
       samples: [
         {
-          title: 'PowerShell: Move a file to multiple PCs',
-          code: `# The location of the host.txt file must be given below.
-Set-Location "C:\\location\\here"
-$computers = get-content C:\\Users\\amorales\\Documents\\hosts.txt
-
-foreach ($computer in $computers) {
-    $remoteFilePath = \\\\$computer\\c$\\Users\\Public\\Documents\\presentation.mp4
-    Copy-Item -Path \\\\server\\marketing\\store\\StoreMBRBoard.mp4 -Destination $remoteFilePath -Force
-    Write-Host "I've just copied the file to $remoteFilePath"
-}`,
-        },
-        {
-          title: 'Bash: Restart a service for 1 hour',
-          code: `#!/bin/bash
-read -p 'What service do you want to restart:' serv
-lowerServ=$(echo $serv | tr '[:upper:]' '[:lower:]')
-
-sudo systemctl stop $lowerServ.service
-echo $lowerServ' service is disabled'
-echo '                              '
-echo 'waiting for 1 hour before service starts'
-
-sleep 1h
-sudo systemctl start $lowerServ.service
-echo $lowerServ' service is enabled'`,
-        },
-        {
           title: 'PowerShell: Remotely clear Teams cache for all users',
           code: `Write-Host "Make sure the user's Teams has been quit completely"
 Write-Host "This will clear the Teams cache for all users on the PC"
@@ -262,37 +235,6 @@ Invoke-Command -ComputerName $Computer -ScriptBlock {
         Where name -in ('application cache','blob_storage','databases','GPUcache','IndexedDB','Local Storage','tmp','Temp','Cache') |
         ForEach { Remove-Item $_.FullName -Recurse -Force }
 }`,
-        },
-        {
-          title: "Python: Paste today's date",
-          code: `from datetime import date
-import pyperclip as pc
-import pyautogui
-
-now = date.today()
-date = now.strftime("%m/%d/%y")
-
-pc.copy(date)
-pyautogui.click()
-pc.paste(date)`,
-        },
-        {
-          title: 'Python: Random number generator',
-          code: `import random, sys
-
-print('Do you want a random number between 1-10')
-print('Please type yes or no')
-answer = input()
-
-realAnswer = answer.lower()
-while realAnswer == 'yes':
-    print(random.randint(1, 10))
-    print('would you like another random number yes or no')
-    answer = input()
-    realAnswer = answer.lower()
-
-print('No number for you')
-sys.exit()`,
         },
       ],
     };

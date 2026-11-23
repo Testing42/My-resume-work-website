@@ -95,8 +95,7 @@
         ></div>
       </div>
       <p v-else class="text-center text-slate-500 text-sm">
-        Use the button above to pick a time. (The embedded calendar below the form
-        activates automatically once a specific event-type link is set in Contact.vue.)
+        Use the button above to pick a time.
       </p>
 
       <p v-if="calendlyError" class="text-center text-red-400 text-sm mt-3">{{ calendlyError }}</p>
