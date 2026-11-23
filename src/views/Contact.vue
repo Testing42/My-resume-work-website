@@ -1,104 +1,35 @@
 <template>
-  <div class="max-w-2xl mx-auto px-6 py-16 animate-fade-up">
+  <div class="max-w-6xl mx-auto px-6 py-16 animate-fade-up">
     <h1 class="text-4xl font-extrabold text-white text-center mb-3">Contact</h1>
-    <p class="text-slate-400 text-center mb-10">
-      Send me a quick message below, or pick a time on the calendar further down
-      to book a meeting with me.
+    <p class="text-slate-400 text-center mb-10 max-w-2xl mx-auto">
+      Pick a time on the calendar below to book a meeting with me.
     </p>
 
-    <form
-      name="contact"
-      method="POST"
-      netlify-honeypot="bot-field"
-      data-netlify="true"
-      class="bg-surface-card border border-white/10 rounded-2xl p-8 space-y-5"
-      @submit="onSubmit"
-    >
-      <input type="hidden" name="form-name" value="contact" />
-      <p class="hidden">
-        <label>
-          Don't fill this out if you're human: <input name="bot-field" />
-        </label>
-      </p>
+    <div class="grid gap-8 lg:grid-cols-[minmax(0,1fr)_minmax(0,1.5fr)] items-stretch">
+      <!-- Left: what to expect -->
+      <div class="bg-surface-card border border-white/10 rounded-2xl p-8 flex flex-col justify-center">
+        <h2 class="text-xl font-bold text-white mb-4">What to expect</h2>
+        <ul class="space-y-3 text-sm text-slate-300">
+          <li v-for="item in expectations" :key="item" class="flex gap-3">
+            <span class="text-brand mt-0.5">&#9679;</span>
+            <span>{{ item }}</span>
+          </li>
+        </ul>
 
-      <div>
-        <label class="block text-sm font-medium text-slate-300 mb-1.5" for="name">Name</label>
-        <input
-          id="name"
-          v-model="form.name"
-          type="text"
-          name="name"
-          placeholder="Your name"
-          required
-          class="w-full rounded-xl bg-surface border border-white/15 px-4 py-2.5 text-white placeholder-slate-500 focus:outline-none focus:border-brand focus:ring-2 focus:ring-brand/30 transition"
-        />
+        <p v-if="calendlyError" class="text-center text-red-400 text-sm mt-8">{{ calendlyError }}</p>
       </div>
 
-      <div>
-        <label class="block text-sm font-medium text-slate-300 mb-1.5" for="email">Email Address</label>
-        <input
-          id="email"
-          v-model="form.email"
-          type="email"
-          name="email"
-          placeholder="you@example.com"
-          required
-          class="w-full rounded-xl bg-surface border border-white/15 px-4 py-2.5 text-white placeholder-slate-500 focus:outline-none focus:border-brand focus:ring-2 focus:ring-brand/30 transition"
-        />
-      </div>
-
-      <div>
-        <label class="block text-sm font-medium text-slate-300 mb-1.5" for="message">Message</label>
-        <textarea
-          id="message"
-          v-model="form.message"
-          name="message"
-          rows="5"
-          placeholder="How can I help?"
-          required
-          class="w-full rounded-xl bg-surface border border-white/15 px-4 py-2.5 text-white placeholder-slate-500 focus:outline-none focus:border-brand focus:ring-2 focus:ring-brand/30 transition resize-y"
-        ></textarea>
-      </div>
-
-      <button
-        type="submit"
-        class="w-full py-3 rounded-xl bg-brand text-white font-semibold shadow-lg shadow-brand/40 hover:bg-brand-dark transition-colors"
-      >Submit</button>
-
-      <p v-if="status" class="text-center text-sm" :class="status.ok ? 'text-emerald-400' : 'text-red-400'">
-        {{ status.message }}
-      </p>
-    </form>
-
-    <!-- Calendly scheduling section -->
-    <div class="mt-12">
-      <h2 class="text-2xl font-bold text-white text-center mb-2">Schedule a meeting</h2>
-      <p class="text-slate-400 text-center mb-6">
-        Pick a time that works for you below.
-      </p>
-
-      <div class="flex justify-center mb-6">
-        <button
-          type="button"
-          class="px-6 py-3 rounded-xl bg-brand text-white font-semibold shadow-lg shadow-brand/40 hover:bg-brand-dark transition-colors"
-          @click="openCalendlyPopup"
-        >Show available meeting times</button>
-      </div>
-
-      <!-- Direct inline embed: works once CALENDLY_EVENT_URL points to a specific event type -->
-      <div v-if="showInline" class="overflow-hidden rounded-2xl border border-white/10">
+      <!-- Right: Calendly inline widget -->
+      <!-- Calendly inline widget begin -->
+      <div class="bg-surface-card border border-white/10 rounded-2xl p-4 overflow-hidden">
         <div
           ref="calendlyWidget"
           class="calendly-inline-widget"
-          :data-url="CALENDLY_EVENT_URL"
-          style="min-width:320px;height:700px;"
+          :data-url="CALENDLY_INLINE_URL"
+          style="min-width:320px;height:720px;"
         ></div>
       </div>
-      <p v-else class="text-center text-slate-500 text-sm">
-        Use the button above to pick a time.
-      </p>
-
-      <p v-if="calendlyError" class="text-center text-red-400 text-sm mt-3">{{ calendlyError }}</p>
+      <!-- Calendly inline widget end -->
     </div>
   </div>
 </template>
@@ -106,131 +37,65 @@
 <script>
 // ------------------------------------------------------------------
 // CALENDLY SETUP
-// The URL below is your profile root, which works for popups.
-// Inline embedding needs a *specific event type* URL, e.g.:
-//   https://calendly.com/morcomputation/30min
-// Find it in Calendly: Event Types -> your event -> "Copy" the link,
-// then paste it below. The embedded calendar turns on automatically.
+// The inline calendar needs a *specific event type* URL. If you change
+// the event in Calendly, copy its link and paste it here.
+// The two query params strip Calendly's description block and cookie
+// banner so the calendar fits without scrolling.
 // ------------------------------------------------------------------
-const CALENDLY_PROFILE_URL = 'https://calendly.com/morcomputation';
-const CALENDLY_EVENT_URL = '';
+const CALENDLY_INLINE_URL =
+  'https://calendly.com/morcomputation/30min?hide_event_type_details=1&hide_gdpr_banner=1';
+
+// Calendly's widget script/style must be injected from JS: <script> and <link>
+// tags are not allowed inside a Vue template.
+function loadCalendlyWidget() {
+  if (window.Calendly) return Promise.resolve(window.Calendly);
+
+  if (!document.getElementById('calendly-widget-css')) {
+    const link = document.createElement('link');
+    link.id = 'calendly-widget-css';
+    link.rel = 'stylesheet';
+    link.href = 'https://assets.calendly.com/assets/external/widget.css';
+    document.head.appendChild(link);
+  }
+
+  return new Promise((resolve, reject) => {
+    const script = document.createElement('script');
+    script.src = 'https://assets.calendly.com/assets/external/widget.js';
+    script.async = true;
+    script.onload = () => resolve(window.Calendly);
+    script.onerror = reject;
+    document.head.appendChild(script);
+  });
+}
 
 export default {
   data() {
     return {
-      form: { name: '', email: '', message: '' },
-      status: null,
       calendlyError: null,
-      calendlyTimer: null,
-      CALENDLY_EVENT_URL,
+      CALENDLY_INLINE_URL,
+      expectations: [
+        'A 30 minute video call, at a time that works for you.',
+        'We start with what you are trying to build or fix.',
+        'You leave with concrete next steps, and a follow-up email.',
+      ],
     };
   },
-  computed: {
-    showInline() {
-      return Boolean(CALENDLY_EVENT_URL);
-    },
-  },
   mounted() {
-    if (CALENDLY_EVENT_URL) {
-      this.setupCalendly();
-    }
-  },
-  unmounted() {
-    clearInterval(this.calendlyTimer);
+    this.initCalendlyInline();
   },
   methods: {
-    waitForCalendly(then) {
-      if (window.Calendly) {
-        then();
-        return;
-      }
-      let waited = 0;
-      this.calendlyTimer = setInterval(() => {
-        waited += 250;
-        if (window.Calendly) {
-          clearInterval(this.calendlyTimer);
-          then();
-        } else if (waited >= 10000) {
-          clearInterval(this.calendlyTimer);
-          this.calendlyError =
-            'Calendly could not be reached. Check your connection or ad blocker, then refresh.';
-        }
-      }, 250);
-    },
-    openCalendlyPopup() {
-      this.calendlyError = null;
-      this.waitForCalendly(() => {
-        try {
-          window.Calendly.initPopupWidget({ url: CALENDLY_PROFILE_URL });
-        } catch (err) {
-          console.warn('Calendly popup failed to open:', err);
-          // Fallback: open your Calendly page in a new tab
-          window.open(CALENDLY_PROFILE_URL, '_blank', 'noopener');
-        }
-      });
-    },
-    setupCalendly() {
+    async initCalendlyInline() {
       const el = this.$refs.calendlyWidget;
       if (!el) return;
-
-      const tryInit = () => {
-        // Already embedded by Calendly's own auto-scan (direct page load)
-        if (el.querySelector('iframe')) return true;
-        if (window.Calendly && typeof window.Calendly.initInlineWidget === 'function') {
-          try {
-            window.Calendly.initInlineWidget({
-              url: CALENDLY_EVENT_URL,
-              parentElement: el,
-            });
-            return true;
-          } catch (err) {
-            console.warn('Calendly inline widget init failed:', err);
-            this.calendlyError =
-              'The Calendly widget was blocked. Check your network or ad blocker, then refresh.';
-            return true; // stop retrying
-          }
-        }
-        return false;
-      };
-
-      if (tryInit()) return;
-
-      // Script not loaded yet — wait up to 10 seconds for it
-      let waited = 0;
-      this.calendlyTimer = setInterval(() => {
-        waited += 250;
-        if (tryInit()) {
-          clearInterval(this.calendlyTimer);
-        } else if (waited >= 10000) {
-          clearInterval(this.calendlyTimer);
-          this.calendlyError =
-            'Calendly could not be reached. Check your connection or ad blocker, then refresh.';
-        }
-      }, 250);
-    },
-    async onSubmit(e) {
-      e.preventDefault();
       try {
-        const body = new URLSearchParams({
-          'form-name': 'contact',
-          'bot-field': '',
-          name: this.form.name,
-          email: this.form.email,
-          message: this.form.message,
-        });
-        const res = await fetch('/', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-          body: body.toString(),
-        });
-        if (res.ok) {
-          this.status = { ok: true, message: 'Thanks! Your message has been sent.' };
-          this.form = { name: '', email: '', message: '' };
-        } else {
-          this.status = { ok: false, message: 'Something went wrong. Please try again.' };
-        }
+        const Calendly = await loadCalendlyWidget();
+        // Calendly's own auto-scan already embedded it (direct page load)
+        if (el.querySelector('iframe') || el.dataset.calendlyInit) return;
+        el.dataset.calendlyInit = 'true';
+        Calendly.initInlineWidget({ url: CALENDLY_INLINE_URL, parentElement: el });
       } catch {
-        this.status = { ok: false, message: 'Form submission needs the deployed site (Netlify). It will not send in local preview.' };
+        this.calendlyError =
+          'Calendly could not be reached. Check your connection or ad blocker, then refresh.';
       }
     },
   },

@@ -1,7 +1,7 @@
 <template>
   <div class="min-h-screen flex flex-col bg-surface text-slate-200 font-sans">
     <Header />
-    <main class="flex-grow">
+    <main class="flex-grow flex flex-col">
       <router-view v-slot="{ Component }">
         <transition name="page" mode="out-in">
           <component :is="Component" />
