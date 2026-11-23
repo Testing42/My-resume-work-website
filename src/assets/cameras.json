@@ -1,0 +1,2004 @@
+{
+    "links": [
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us:443/images/toledo/SR2-EB-Approach.jpg",
+            "mainRoute": "SR-2 at S Ligtner Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us:443/images/artimis/Colerain_Ave_at_Springdale.jpg",
+            "mainRoute": "Colerain Ave at Springdale Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us:443/images/CMH/2134.jpg",
+            "mainRoute": "US-33 at W of Avery Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us:443/images/rest_area/I-70_Licking_WB-4.jpg",
+            "mainRoute": "I-70 WB Licking county rest area"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us:443/images/CLE/CLE104-L.jpg",
+            "mainRoute": "I-90 at SR-252 / Columbia Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us:443/images/artimis/CCTV140.jpg",
+            "mainRoute": "I-74 at Elmore St"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us:443/images/Dayton/I-75_at_SR-122.jpg",
+            "mainRoute": "I-75 at SR-122"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/rest_area/I-70 EB at MM 130 Licking County PTZ.jpg",
+            "mainRoute": "I-70 EB Licking county rest area"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/artimis/CCTV045a.jpg",
+            "mainRoute": "I-71 NB, East Tunnel, North End"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/artimis/CCTV044a.jpg",
+            "mainRoute": "I-71 SB to 3rd St Exit, Center Tunnel, North End"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/artimis/CCTV047a.jpg",
+            "mainRoute": "I-71 SB to 3rd St Exit, Center Tunnel, South End"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/artimis/CCTV043a.jpg",
+            "mainRoute": "I-71 SB, West Tunnel, North End"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/artimis/CCTV046a.jpg",
+            "mainRoute": "I-71 SB, West Tunnel, South End"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/dayton/I-70_at_I-675.jpg",
+            "mainRoute": "I-70 at I-675"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/toledo/SR-795_at_East_Broadway_St.jpg",
+            "mainRoute": "SR-795 at East Broadway St"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/Dayton/I-75_at_South_of_Dryden_Rd.jpg",
+            "mainRoute": "I-75 at South of Dryden Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/CLE207-L.jpg",
+            "mainRoute": "I-271 at White Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/D05/US-40_at_Rehl_Rd.jpg",
+            "mainRoute": "US-40 at Rehl Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/toledo/I-75_at_Berdan_Ave-Haverhill_Dr.jpg",
+            "mainRoute": "I-75 at Berdan Ave-Haverhill Dr"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/artimis/CCTV063.jpg",
+            "mainRoute": "I-275 at US-50, Exit 16, Indiana"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/dayton/I-75_at_Main_St.jpg",
+            "mainRoute": "I-75 at Main St/SR-48"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us:443/images/CMH/CCTV2150.jpg",
+            "mainRoute": "I-670 EB at MM 4.8, E of Cleveland Ave"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/CLE156-L.jpg",
+            "mainRoute": "I-90 at SR-84 / Bishop Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/toledo/I-475_at_Monroe_St.jpg",
+            "mainRoute": "I-475 at Monroe St"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CMH/Georgesville-Holt.jpg",
+            "mainRoute": "(City of Columbus) Georgesville Rd at Holt Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/toledo/I-75_at_SR-18.jpg",
+            "mainRoute": "I-75 at SR-18"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/CLE051-L.jpg",
+            "mainRoute": "I-71 at Ridge Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/D10/CCTV007.jpg",
+            "mainRoute": "US-33 at E State Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CMH/High-Henderson.jpg",
+            "mainRoute": "High St at Henderson Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CMH/CMH123.jpg",
+            "mainRoute": "I-70 at Hilliard-Rome Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CMH/I-70_at_Courtright_Rd.jpg",
+            "mainRoute": "I-70 at Courtright Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/CLE122.jpg",
+            "mainRoute": "I-77 at 13th St"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/dayton/I-675_at_Indian_Ripple_Rd.jpg",
+            "mainRoute": "I-675 at Indian Ripple Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/toledo/I-75_at_S_of_I-475_South_side.jpg",
+            "mainRoute": "I-75 at S of I-475 (South side)"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/dayton/I-75_at_SR-4.jpg",
+            "mainRoute": "I-75 at SR-4"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/artimis/CCTV4150.jpg",
+            "mainRoute": "I-275 at Five Mile Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/dayton/I-75_at_SR-725.jpg",
+            "mainRoute": "I-75 at SR-725/Miamisburg Centerville Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CMH/CCTV2118.jpg",
+            "mainRoute": "I-70 at E of SR-142"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/CCTV6070.jpg",
+            "mainRoute": "I-90 at SR-11"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/CLE098-L.jpg",
+            "mainRoute": "I-76 at S Munroe Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/cmh/US-23_at_Home_Rd.jpg",
+            "mainRoute": "US-23 at Home Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/artimis/FEMM176.jpg",
+            "mainRoute": "Fields Ertel Rd & Kings Auto Mall"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CMH/High-Twelfth.jpg",
+            "mainRoute": "(City of Columbus) High St at 12th Ave"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/CLE3100.jpg",
+            "mainRoute": "I-90 at SR-528"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/artimis/CCTV141.jpg",
+            "mainRoute": "I-74 at Colerain Ave / Beekman St (East)"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/artimis/SR-28_at_Old_28.jpg",
+            "mainRoute": "SR-28 at Old 28 East"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/artimis/CCTV4154.jpg",
+            "mainRoute": "I-71 at SR-73"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CMH/Dierker-Henderson.jpg",
+            "mainRoute": "(City of Columbus) Henderson Rd at Dierker"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us:443/images/CMH/CCTV2164.jpg",
+            "mainRoute": "I-670 EB at MM 6.8, E of Sunbury Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/CLE183-L.jpg",
+            "mainRoute": "I-77 at I-271"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CMH/CCTV2119.jpg",
+            "mainRoute": "I-70 at W of US-33"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/CLE075-L.jpg",
+            "mainRoute": "I-77 at Harvard Ave"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/artimis/SR-562_at_East_of_I-75.jpg",
+            "mainRoute": "SR-562 at East of I-75"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us:443/images/D10/D10-008.jpg",
+            "mainRoute": "SR-7/SR-32 at US-50"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/toledo/I-280_at_Manhattan_Blvd.jpg",
+            "mainRoute": "I-280 at I-75, E Manhattan Blvd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/CLE131-L.jpg",
+            "mainRoute": "I-90 at E 22nd St"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/toledo/I-475_at_US-20.jpg",
+            "mainRoute": "I-475 at US-20 / SR-120 / W Central Ave"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/CLE216-L.jpg",
+            "mainRoute": "I-480 at W 130th St"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/toledo/I-280_at_SR-795.jpg",
+            "mainRoute": "I-280 at SR-795/Moline-Martin Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/dayton/I-75_at_Dixie_Highway.jpg",
+            "mainRoute": "I-75 at Dixie Highway"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/cmh/US-23_at_Hyatts-Shanahan.jpg",
+            "mainRoute": "US-23 at Hyatts Rd/Shanahan Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CMH/I-71NB-Eleventh.jpg",
+            "mainRoute": "(City of Columbus) I-71 NB ramp at 11th Ave"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/CLE035.jpg",
+            "mainRoute": "I-71 at Snow Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CMH/I-270_at_N_of_Roberts_Rd.jpg",
+            "mainRoute": "I-270 at N of Roberts Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/CLE038-L.jpg",
+            "mainRoute": "SR-8 at E Steels Corners Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CMH/Broad-RNA.jpg",
+            "mainRoute": "(City of Columbus) Broad St at Reynoldsburg - New Albany Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us:443/images/D10/D10-005.jpg",
+            "mainRoute": "US-50 at E of US-33"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/CLE101.jpg",
+            "mainRoute": "I-90 at I-80 Turnpike"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us:443/images/CMH/CCTV2161.jpg",
+            "mainRoute": "I-670 EB at MM 6.5, E of Leonard Ave"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/CLE127-L.jpg",
+            "mainRoute": "I-71 at I-90 / I-490"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CMH/bethel-sawmill.jpg",
+            "mainRoute": "(City of Columbus) Bethel Rd at Sawmill Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/D01/CCTV012.jpg",
+            "mainRoute": "I-75 at SR-81"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/CLE116-L.jpg",
+            "mainRoute": "I-90 at W 117th St"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CMH/RWIS_D06-2.jpg",
+            "mainRoute": "US-35 at US-62"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/toledo/I-75_at_Dowling_Rd.jpg",
+            "mainRoute": "I-75 at Dowling Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/CLE120a.jpg",
+            "mainRoute": "I-77 at 4th St"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/dayton/I-75_at_Stanley_Ave.jpg",
+            "mainRoute": "I-75 at Stanley Ave"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/toledo/I-280_at_OH_Turnpike.jpg",
+            "mainRoute": "SR-420/I-280 at I-80/I-90/Ohio Turnpike"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us:443/images/D01/SR309-Cable.jpg",
+            "mainRoute": "SR-309 at N Cable Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/dayton/CCTV1070.jpg",
+            "mainRoute": "I-70 at Brookville Phillipsburg Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us:443/images/D03/I-71_NB_at_US-250.jpg",
+            "mainRoute": "I-71 NB at US-250"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CMH/bethel-godown.jpg",
+            "mainRoute": "(City of Columbus) Bethel Rd at Godown Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/toledo/SR-795_at_Cummings_Rd.jpg",
+            "mainRoute": "SR-795 at Cummings Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us:443/images/CMH/CCTV2173.jpg",
+            "mainRoute": "I-670 EB at MM 8.5, Cassady Ave"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CMH/I-71_at_Park_Rd.jpg",
+            "mainRoute": "I-71 at Park Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/CLE136a-L.jpg",
+            "mainRoute": "I-77 at Mt Pleasant St"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CMH/Olentangy-JohnHerrick.jpg",
+            "mainRoute": "(City of Columbus) Olentangy River Rd at John Herrick Dr"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/CLE6073.jpg",
+            "mainRoute": "SR-711 at East of I-680"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CMH/CivicCtr-Rich.jpg",
+            "mainRoute": "Civic Center Dr at Rich St"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/artimis/I-75_N_of_Hopple.jpg",
+            "mainRoute": "I-75 at N of Hopple St"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CMH/RWIS_D06-1.jpg",
+            "mainRoute": "I-70 at SR-79 (Buckeye Lake)"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us:443/images/rest_area/I-75_Miami_SB-1.jpg",
+            "mainRoute": "I-75 SB Miami county rest area"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/toledo/I-75_at_US-20_US-23.jpg",
+            "mainRoute": "I-75 at US-20/US-23"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/CLE214.jpg",
+            "mainRoute": "I-480 at SR-237"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/CCTV6074.jpg",
+            "mainRoute": "I-76 at Cleveland Massillon Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/dayton/US-35_at_SR-835_Research_Blvd.jpg",
+            "mainRoute": "US-35 at SR-835 / Research Blvd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/CLE018-L.jpg",
+            "mainRoute": "SR-8 at SR-18 / E Market St"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/CLE118-L.jpg",
+            "mainRoute": "I-90 at West Blvd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/CLE142-L.jpg",
+            "mainRoute": "I-90 at E of SR-283 / Eddy Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/I-90_at_Hermitage_Rd.jpg",
+            "mainRoute": "I-90 at Hermitage Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/CLE132a-L.jpg",
+            "mainRoute": "I-77 at Dressler Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/CLE206-L.jpg",
+            "mainRoute": "I-277 at W Waterloo Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us:443/images/D01/I-75_at_SR-65_St_Johns_Rd.jpg",
+            "mainRoute": "I-75 at SR-65 / St. Johns Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CMH/Trabue-Wilson.jpg",
+            "mainRoute": "(City of Columbus) Trabue Rd at Wilson Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/CLE094.jpg",
+            "mainRoute": "I-480 at I-80 (West)"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/Dayton/I-75_at_Carillon_Blvd.jpg",
+            "mainRoute": "I-75 at Carillon Blvd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/toledo/Central_Ave_at_Reynolds_Rd.jpg",
+            "mainRoute": "Central Ave / US-20 / SR-120 at Reynolds Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CMH/Hamilton-Refugee.jpg",
+            "mainRoute": "(City of Columbus) Hamilton Rd at Refugee Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us:443/images/D01/SR-309_at_Lost_Creek.jpg",
+            "mainRoute": "SR-309 at Lost Creek Blvd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CMH/I-70_at_East_of_Brice_Rd.jpg",
+            "mainRoute": "I-70 at East of Brice Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/dayton/US-35_at_W_3rd_St.jpg",
+            "mainRoute": "US-35 at W 3rd St"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/CLE128a-L.jpg",
+            "mainRoute": "I-77 at Belden Village St"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/CCTV6075.jpg",
+            "mainRoute": "I-76 at Clark Mill Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/dayton/I-70_at_OHio-Indiana_Line.jpg",
+            "mainRoute": "I-70 at Ohio/Indiana Line"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CMH/Olentangy-Third.jpg",
+            "mainRoute": "(City of Columbus) Olentangy River Rd at Third Ave"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/CLE106-L.jpg",
+            "mainRoute": "I-90 at Clague Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us:443/images/rest_area/I-75_Auglaize_NB-1.jpg",
+            "mainRoute": "I-75 NB Auglaize county rest area"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/toledo/I-75_at_N_of_OH_Turnpike.jpg",
+            "mainRoute": "I-75 at N of I-80/90 (Ohio Turnpike)"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/artimis/US-27_at_Colerain_Crossings.jpg",
+            "mainRoute": "US-27 / Colerain Ave at South of SR-126"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CMH/Karl-OaklandPark.jpg",
+            "mainRoute": "(City of Columbus) Karl Rd at Oakland Park Ave"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/D05/D05-004.jpg",
+            "mainRoute": "I-70 at State St"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/Dayton/CCTV1068.jpg",
+            "mainRoute": "I-70 at Number 9 Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/artimis/CCTV080a.jpg",
+            "mainRoute": "I-71 at Robertson Ave"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/artimis/CCTV4159.jpg",
+            "mainRoute": "SR-126 at E of Plainfield Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/artimis/tobasco115.jpg",
+            "mainRoute": "SR-125 at Mt. Carmel/Tobasco Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/I-90_at_SR-86.jpg",
+            "mainRoute": "I-90 at SR-86"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/CLE073-L.jpg",
+            "mainRoute": "I-77 at Grant Ave"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us:443/images/CMH/CCTV2178.jpg",
+            "mainRoute": "I-670 EB at MM 9.4, West of Stelzer Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/rest_area/I-75_Butler_NB-1.jpg",
+            "mainRoute": "I-75 NB Butler county rest area"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us:443/images/CMH/Alkire-Holt.jpg",
+            "mainRoute": "(City of Columbus) Alkire Rd at Holt Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/I-480_at_W_220th_St.jpg",
+            "mainRoute": "I-480 at W 220th St"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CMH/CMH093.jpg",
+            "mainRoute": "I-71 at Gemini Place"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/artimis/poole211.jpg",
+            "mainRoute": "US-27 at Poole Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/dayton/SR-725_Yankee_SW.jpg",
+            "mainRoute": "SR-725 at Yankee St (Southwest)"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/CLE099.jpg",
+            "mainRoute": "I-90 at Baker Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/CLE158a-L.jpg",
+            "mainRoute": "I-77 N of I-277 / Waterloo Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/toledo/I-475_at_Promedica_Pkwy.jpg",
+            "mainRoute": "I-475 at Promedica Pkwy"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/artimis/CCTV4151.jpg",
+            "mainRoute": "I-275 at Eight Mile Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/artimis/CCTV146.jpg",
+            "mainRoute": "I-74 East of Harrison Ave"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CMH/Dublin-Karl.jpg",
+            "mainRoute": "(City of Columbus) SR-161/Dublin-Granville Rd at Karl Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CMH/High-NBroadway.jpg",
+            "mainRoute": "(City of Columbus) High St at North Broadway St"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us:443/images/Dayton/I-75_at_SR-63.jpg",
+            "mainRoute": "I-75 at SR-63"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CMH/Stelzer-InternationalGtwyEB.jpg",
+            "mainRoute": "(City of Columbus) Stelzer Rd at International Gateway EB"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/CLE104a-L.jpg",
+            "mainRoute": "I-76 W of Tallmadge Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/D09/US-52_Charley_Creek.jpg",
+            "mainRoute": "US-52 at Charley Creek Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/CLE3096.jpg",
+            "mainRoute": "I-77 at SR-82"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/toledo/I-280_at_Pickle_Rd.jpg",
+            "mainRoute": "I-280 at Pickle Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/toledo/I-475_at_SR-25.jpg",
+            "mainRoute": "I-475 at SR-25 / Dixie Hwy"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/toledo/I-475_at_SR-25_2.jpg",
+            "mainRoute": "I-475 at SR-25 (Signals)"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/dayton/I-75_at_US-36.jpg",
+            "mainRoute": "I-75 at US-36"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/artimis/SR-747_Tylersville_Quad.jpg",
+            "mainRoute": "SR-747 at Tylersville Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/toledo/Central_Ave_at_King_Ave.jpg",
+            "mainRoute": "Central Ave at King Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/dayton/I-75_at_Michigan_St.jpg",
+            "mainRoute": "I-75 at Michigan St"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/Dayton/CCTV1067.jpg",
+            "mainRoute": "I-75 at US-33"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CMH/CCTV2181.jpg",
+            "mainRoute": "I-270 at N of I-670/Agler Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CMH/Lestor-Spring.jpg",
+            "mainRoute": "(City of Columbus) I-71 at Lester Dr/Spring St"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/artimis/FEMM172.jpg",
+            "mainRoute": "Fields Ertel Rd & Escort Dr / I-71 On Ramp"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us:443/images/rest_area/I-75_Butler_SB-1.jpg",
+            "mainRoute": "I-75 SB Butler county rest area"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/CLE188-L.jpg",
+            "mainRoute": "I-77 at Martadale Dr"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/CLE031-L.jpg",
+            "mainRoute": "I-71 at Bagley Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/I-90_at_Riverside_Dr.jpg",
+            "mainRoute": "I-90 at Riverside Dr"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/I-71_at_SR-18.jpg",
+            "mainRoute": "I-71 at SR-18 / Medina Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us:443/images/CMH/US_23_at_Flint_Rd.jpg",
+            "mainRoute": "US-23 at Flint Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/dayton/I-75_at_SR-41.jpg",
+            "mainRoute": "I-75 at SR-41"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/Dayton/I-70_at_SR-72.jpg",
+            "mainRoute": "I-70 at SR-72 / Limestone St"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us:443/images/artimis/CCTV4156.jpg",
+            "mainRoute": "I-71 at SR-123"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/CLE200-L.jpg",
+            "mainRoute": "I-271 at Cedar Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/CLE187-L.jpg",
+            "mainRoute": "I-271 at I-480 (South)"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CMH/James-Livingston.jpg",
+            "mainRoute": "(City of Columbus) James Rd at Livingston Ave"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/artimis/US-127_I-275_WB_Ramp.jpg",
+            "mainRoute": "US-127 / Hamilton Ave at I-275 WB Ramp"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/D10/D10-009.jpg",
+            "mainRoute": "I-77 at SR-78"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us:443/images/rest_area/I-75_Miami_NB-1.jpg",
+            "mainRoute": "I-75 NB Miami county rest area"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CMH/CCTV2142.jpg",
+            "mainRoute": "I-270 at S Hamilton Rd, MM 44.8"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/CLE230.jpg",
+            "mainRoute": "I-480 at Lee Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CMH/US-33_at_Hamilton_Rd.jpg",
+            "mainRoute": "US-33 at Hamilton Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CMH/HighMain.jpg",
+            "mainRoute": "High St at Main St"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/artimis/CCTV4157.jpg",
+            "mainRoute": "I-71 at S of Snider Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CMH/Sullivant-Wilson.jpg",
+            "mainRoute": "(City of Columbus) Sullivant Ave at Wilson Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/CLE040-L.jpg",
+            "mainRoute": "SR-8 at Hampshire Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/artimis/CCTV139a.jpg",
+            "mainRoute": "I-74 at Morgan Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CMH/Main-Second.jpg",
+            "mainRoute": "Main St at Second St"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/CLE226-L.jpg",
+            "mainRoute": "I-480 at SR-17 / Granger Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/CLE078.jpg",
+            "mainRoute": "I-76 at Summit Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/artimis/SR747-Union.jpg",
+            "mainRoute": "SR-747 at Union Centre Blvd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CMH/I-70_at_East_of_Wilson_Rd.jpg",
+            "mainRoute": "I-70 at East of Wilson Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/toledo/I-75_at_SR-582.jpg",
+            "mainRoute": "I-75 at SR-582, Middleton Pike"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/dayton/I-675_at_SR-741.jpg",
+            "mainRoute": "I-675 at I-75, SR-741/Springboro Pike"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/CLE204a-L.jpg",
+            "mainRoute": "I-277 W of Waterloo Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/dayton/I-675_at_Shakertown_Rd.jpg",
+            "mainRoute": "I-675 at Shakertown Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CMH/Broad-I71SB.jpg",
+            "mainRoute": "(City of Columbus) Broad St at I-71 SB"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/US-52_at_SR-93.jpg",
+            "mainRoute": "US-52 at SR-93"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/dayton/I-675_at_North_Fairfield_Rd.jpg",
+            "mainRoute": "I-675 at North Fairfield Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/toledo/I-75_at_US-6.jpg",
+            "mainRoute": "I-75 at US-6"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/D05/US-40_SR-13.jpg",
+            "mainRoute": "US-40 at SR-13"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/toledo/I-475_at_Hill_Ave.jpg",
+            "mainRoute": "I-475 at Hill Ave"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/dayton/I-75_at_US-35.jpg",
+            "mainRoute": "I-75 at US-35"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/toledo/US-23_at_OH_MI_Line.jpg",
+            "mainRoute": "US-23 at Ohio/Michigan Line"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/artimis/CCTV4110-5.jpg",
+            "mainRoute": "I-275 at East of Kellogg Ave"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/D11/D11-004.jpg",
+            "mainRoute": "I-70 at W of SR-7"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/toledo/SR-2_at_SR-53.jpg",
+            "mainRoute": "SR-2 at SR-53"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/artimis/CCTV4158.jpg",
+            "mainRoute": "I-71 at N of Snider Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/CLE076.jpg",
+            "mainRoute": "I-76 at SR-21"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/CCTV6076.jpg",
+            "mainRoute": "I-76 at Barber Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us:443/images/rest_area/I-75_Wood_SB-3.jpg",
+            "mainRoute": "I-75 SB Wood county rest area"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/toledo/I-280_at_Woodville_Rd.jpg",
+            "mainRoute": "I-280 at SR-51 / Woodville Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/dayton/I-70_at_West_of_US-40.jpg",
+            "mainRoute": "I-70 at West of US-40"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/CLE116a.jpg",
+            "mainRoute": "I-77 at US-30/US-62"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us:443/images/rest_area/I-70_Belmont_Eb-1.jpg",
+            "mainRoute": "I-70 Belmont EB Rest Area"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/toledo/I-75_at_Ottawa_River_Rd.jpg",
+            "mainRoute": "I-75 at Ottawa River Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/toledo/I-475_at_SR-2_Airport_Hwy.jpg",
+            "mainRoute": "I-475 at SR-2 / Airport Hwy"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/CLE014-L.jpg",
+            "mainRoute": "SR-8 at Exchange St"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/toledo/I-75_at_SR-2.jpg",
+            "mainRoute": "I-75 at SR-2, Broadway St"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CMH/SR-161_at_Hamilton_Rd.jpg",
+            "mainRoute": "SR-161 at Hamilton Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/toledo/I-75_at_Ohio-Michigan_Line.jpg",
+            "mainRoute": "I-75 at Ohio/Michigan Line"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/D09/SR-159_US-23_NB.jpg",
+            "mainRoute": "SR-159 at US-23 NB Ramp"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CMH/Morse-Westerville.jpg",
+            "mainRoute": "(City of Columbus) Morse Rd at Westerville Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/dayton/US-35_at_S_Perry_St.jpg",
+            "mainRoute": "US-35 at S Perry St"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CMH/Fourth-Mound.jpg",
+            "mainRoute": "(City of Columbus) Fourth St at Mound St"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/artimis/FEMM167.jpg",
+            "mainRoute": "Mason Montgomery Rd & Parkway Dr"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CMH/bethel-olentangy.jpg",
+            "mainRoute": "(City of Columbus) Bethel Rd at Olentangy River Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/toledo/I-75_at_Expressway_Dr.jpg",
+            "mainRoute": "I-75 at Expressway Dr"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CMH/Ikea-Worthington.jpg",
+            "mainRoute": "Worthington Rd at Ikea Way"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CMH/Sullivant-Norton.jpg",
+            "mainRoute": "(City of Columbus) Sullivant Ave at Norton Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/toledo/I-475_at_Corey_Rd.jpg",
+            "mainRoute": "I-475 at Corey Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CMH/Hamilton-Fifth.jpg",
+            "mainRoute": "(City of Columbus) Hamilton Rd at 5th Ave"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/CLE096.jpg",
+            "mainRoute": "I-480 at I-80 Turnpike (East)"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us:443/images/D10/D10-002.jpg",
+            "mainRoute": "US-35 at SR-7"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/artimis/CCTV098a.jpg",
+            "mainRoute": "I-275 at Hamilton Ave / US-127"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/CLE072.jpg",
+            "mainRoute": "I-76 at US-224 / I-71"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/D09/SR-7_E_Huntington_Bridge.jpg",
+            "mainRoute": "SR-7 at East Huntington Bridge"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/CLE120-L.jpg",
+            "mainRoute": "I-90 at W 84th St"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CMH/2132.jpg",
+            "mainRoute": "US-33 at E of Post Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/artimis/Liberty_Way_at_I-75SB_Ramp.jpg",
+            "mainRoute": "Liberty Way at I-75 SB Ramp"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/toledo/I-75_at_Cygnet_Rd.jpg",
+            "mainRoute": "I-75 at Cygnet Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/dayton/SR-49_at_Shiloh_Springs_Rd.jpg",
+            "mainRoute": "SR-49 at Shiloh Springs Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/D05/US-40_at_SR-37.jpg",
+            "mainRoute": "US-40 at SR-37"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/CLE160.jpg",
+            "mainRoute": "I-90 at SR-91"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/toledo/I-75_at_West_Bancroft_St.jpg",
+            "mainRoute": "I-75 at West Bancroft St"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us:443/images/rest_area/I-70_Belmont_WB-1.jpg",
+            "mainRoute": "I-70 Belmont WB Rest Area"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/CLE208-L.jpg",
+            "mainRoute": "I-277 at Ley Dr"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/toledo/I-75_at_Bowling_Green.jpg",
+            "mainRoute": "I-75 at SR-64/SR-105, Bowling Green"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/toledo/I-75_at_Bowling_Green_2.jpg",
+            "mainRoute": "I-75 at SR-64/SR-105 (signals) lower camera"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/artimis/SR747-SR129EB.jpg",
+            "mainRoute": "SR-747 at SR-129 EB Ramp"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/artimis/747_129_WB_Ramp.jpg",
+            "mainRoute": "SR-747 at SR-129 WB Ramp"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/CLE164-L.jpg",
+            "mainRoute": "I-77 at SR-261 / Vern Odom Blvd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CMH/Front-Main.jpg",
+            "mainRoute": "Front St at Main St"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/artimis/US-127_at_I-275_EB_Ramp.jpg",
+            "mainRoute": "US-127 / Hamilton Ave at I-275 EB Ramp"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/CLE036a-L.jpg",
+            "mainRoute": "SR-8 at Graham Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/CLE202.jpg",
+            "mainRoute": "I-76 at I-277"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CMH/Broad-Nelson.jpg",
+            "mainRoute": "(City of Columbus) Broad St at Nelson Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CMH/I-70_at_2nd_St.jpg",
+            "mainRoute": "I-70/I-71 at 2nd St/Mound St on ramp"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CMH/CCTV2208_Quad.jpg",
+            "mainRoute": "I-270 at Claycraft/Morrison Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/CLE086-L.jpg",
+            "mainRoute": "I-76 at I-77 (West)"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/toledo/Airport_Hwy_at_Holloway_Rd.jpg",
+            "mainRoute": "Airport Hwy at Holloway Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CMH/CCTV2138.jpg",
+            "mainRoute": "I-71 at SR-61"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CMH/AlumCreek-Main.jpg",
+            "mainRoute": "(City of Columbus) Alum Creek Dr at Main St"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CMH/SR-315_at_Ackerman_Rd.jpg",
+            "mainRoute": "SR-315 at Ackerman Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CMH/Cleveland-Hudson.jpg",
+            "mainRoute": "(City of Columbus) Cleveland Ave at Hudson St"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us:443/images/D01/I-75_at_US-30.jpg",
+            "mainRoute": "I-75 at US-30 / SR-696"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/dayton/CCTV1071.jpg",
+            "mainRoute": "I-70 at SR-49"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/toledo/I-75_at_Simonds_Rd.jpg",
+            "mainRoute": "I-75 at Simonds Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/CLE3097.jpg",
+            "mainRoute": "I-90 at SR-44"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/toledo/Central_Ave_at_Holland-Sylvania_Rd.jpg",
+            "mainRoute": "Central Ave / US-20 at Holland Sylvania Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CMH/Clime-Demorest.jpg",
+            "mainRoute": "(City of Columbus) Clime Rd at Demorest Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CMH/Karl-Morse.jpg",
+            "mainRoute": "(City of Columbus) Karl Rd at Morse Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/I-80_at_SR-46.jpg",
+            "mainRoute": "I-80 at SR-46"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/CLE045-L.jpg",
+            "mainRoute": "I-71 at W 140th St"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/toledo/CCTV5072.jpg",
+            "mainRoute": "I-75 at Oil Center Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/artimis/Colerain_Ave_at_SR-126_EB.jpg",
+            "mainRoute": "Colerain Ave at SR-126 EB"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us:443/images/Rest Area- Madison County I-70 WB - Camera 4.jpg",
+            "mainRoute": "I-70 WB Madison county rest area"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/CCTV6071.jpg",
+            "mainRoute": "I-80 at SR-11/SR-711"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/CLE3020.jpg",
+            "mainRoute": "I-77 at I-480"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/CLE218-L.jpg",
+            "mainRoute": "I-480 at SR-94 / State Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/CLE180-L.jpg",
+            "mainRoute": "I-77 at SR-18"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/artimis/Colerain_Ave_at_I-275_EB.jpg",
+            "mainRoute": "Colerain Ave at I-275 EB Ramp"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us:443/images/CLE/CCTV3025.jpg",
+            "mainRoute": "I-490 at Broadway Ave, West of I-77"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/CLE3101.jpg",
+            "mainRoute": "I-90 at Dayton Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us:443/images/CMH/CCTV2155.jpg",
+            "mainRoute": "I-670 EB at MM 5.6, W of Joyce Ave"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/Dayton/I-75_at_Pennyroyal_Rd.jpg",
+            "mainRoute": "I-75 at Pennyroyal Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/CLE066-L.jpg",
+            "mainRoute": "I-77 at I-80 Turnpike"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CMH/Greenlawn-High.jpg",
+            "mainRoute": "(City of Columbus) Greenlawn Ave at High St"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/CLE049-L.jpg",
+            "mainRoute": "I-71 at E of W 117th St"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/artimis/SR-125_at_Brandychase_Way.jpg",
+            "mainRoute": "SR-125 at Brandychase Way"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/CLE195-L.jpg",
+            "mainRoute": "I-271 at US-422 Split"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/Dayton/I-70_at_Snider_Rd.jpg",
+            "mainRoute": "I-70 at Snider Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/US-20_at_Parmly_Rd.jpg",
+            "mainRoute": "US-20 at Parmly Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/artimis/CCTV093a-L.jpg",
+            "mainRoute": "I-75 at South of I-74"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/CLE146a.jpg",
+            "mainRoute": "I-77 at E Turkeyfoot Lake Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us:443/images/D01/I-75_at_SR-117_SR-309.jpg",
+            "mainRoute": "I-75 at SR-117 / SR-309"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/toledo/I-75_at_SR-65.jpg",
+            "mainRoute": "I-75 at SR-65, Miami St"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/toledo/I-75_at_SR-65_2.jpg",
+            "mainRoute": "I-75 at SR-65 (Signals) lower camera"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/artimis/CCTV145.jpg",
+            "mainRoute": "I-74 at Haft Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/SR-2_at_Newell_St.jpg",
+            "mainRoute": "SR-2 at Newell St, East of SR-44"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/CLE132-L.jpg",
+            "mainRoute": "I-90 at SR-2 / Lakefront Airport"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/dayton/SR-48_at_Philadelphia_Dr_NE.jpg",
+            "mainRoute": "SR-48 at Philadelphia Dr, NE corner"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/CLE112.jpg",
+            "mainRoute": "I-90 at Hilliard Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/CLE166a-L.jpg",
+            "mainRoute": "I-77 at SR-162 / Copley Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/dayton/SR-741_at_Austin_Blvd.jpg",
+            "mainRoute": "SR-741 at Austin Blvd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/CLE044-L.jpg",
+            "mainRoute": "SR-8 at Barlow Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CMH/RWIS_SR-4_at_SR-203.jpg",
+            "mainRoute": "SR-4 at SR-203"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/Dayton/Day1020.jpg",
+            "mainRoute": "I-75 at Austin Blvd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CMH/CCTV2144.jpg",
+            "mainRoute": "US-35 at US-62"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/CLE083-L.jpg",
+            "mainRoute": "I-77 at S of E 30th St"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/CLE114-L.jpg",
+            "mainRoute": "I-90 at W of Warren Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us:443/images/CMH/SR-750_at_Sawmill_Pkwy.jpg",
+            "mainRoute": "SR-750 at Sawmill Pkwy"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/D09/US-52_Burlington.jpg",
+            "mainRoute": "US-52 at Burlington-Macedonia Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/CLE088.jpg",
+            "mainRoute": "I-76 at SR-59"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/artimis/asbury3.jpg",
+            "mainRoute": "SR-125 at Asbury Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/US-250_at_SR-2_EB_Ramp.jpg",
+            "mainRoute": "US-250 at SR-2 EB Ramp"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/artimis/CCTV147.jpg",
+            "mainRoute": "I-74 at Harrison Ave"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CMH/Broad-Galloway.jpg",
+            "mainRoute": "(City of Columbus) Broad St at Galloway Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/artimis/SR-125_Five_Mile_Quad.jpg",
+            "mainRoute": "SR-125 at Five Mile Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us:443/images/CMH/CCTV2169.jpg",
+            "mainRoute": "I-670 EB at MM 8.0, East of 5th Ave"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/CLE082.jpg",
+            "mainRoute": "I-76 at SR-619 / Wooster Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/dayton/SR-48_at_Shoup_Mill_Rd_SW.jpg",
+            "mainRoute": "SR-48 at Shoup Mill Rd, SW Corner"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/CLE150-L.jpg",
+            "mainRoute": "I-77 at Arlington Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/dayton/I-75_at_US-40.jpg",
+            "mainRoute": "I-75 at US-40"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/CLE071-L.jpg",
+            "mainRoute": "I-77 at S of Grant Ave"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/CLE160a-L.jpg",
+            "mainRoute": "I-77 at E Wilbeth Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/CLE146-L.jpg",
+            "mainRoute": "I-90 E of E 152nd St"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CMH/US-33_at_Gender_Rd.jpg",
+            "mainRoute": "US-33 at Gender Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/CLE032.jpg",
+            "mainRoute": "SR-8 at Front St"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/D09/US-52_Ashland_Bridge.jpg",
+            "mainRoute": "US-52 at Ashland Bridge"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/CLE064.jpg",
+            "mainRoute": "I-71 at I-76"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us:443/images/rest_area/I-70_Madison_EB-3.jpg",
+            "mainRoute": "I-70 EB Madison county rest area"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/CLE013-L.jpg",
+            "mainRoute": "SR-8 at SR-303"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CMH/CCTV2183.jpg",
+            "mainRoute": "I-70 at Cole Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/toledo/I-280_at_Navarre_Ave.jpg",
+            "mainRoute": "I-280 at Navarre Ave"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CMH/Stelzer-Easton.jpg",
+            "mainRoute": "(City of Columbus) Stelzer Rd at Easton Way"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us:443/images/D11/D11-002.jpg",
+            "mainRoute": "I-77 at SR-39 / US-250"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/CLE114a.jpg",
+            "mainRoute": "I-77 at South of US-30"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/dayton/SR-725_at_Southwind_Dr.jpg",
+            "mainRoute": "SR-725 at Southwind Dr"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/dayton/I-70_at_SR-41.jpg",
+            "mainRoute": "I-70 at SR-41"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CMH/CCTV2141.jpg",
+            "mainRoute": "I-71 at E Powell Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/CLE154-L.jpg",
+            "mainRoute": "I-90 at SR-2 / Lakeland Fwy"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/CLE043-L.jpg",
+            "mainRoute": "I-71 at W 143rd St"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/US_23_at_Northwoods_Blvd.jpg",
+            "mainRoute": "US-23 at Northwoods Blvd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CMH/Morse-Sunbury.jpg",
+            "mainRoute": "(City of Columbus) Morse Rd at Sunburry Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/CLE171-L.jpg",
+            "mainRoute": "SR-176 at Spring Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CMH/High-Lazelle.jpg",
+            "mainRoute": "(City of Columbus) US-23 / High St at Lazelle Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/cincinnati/I-71_at_Socialville-Foster_Rd.jpg",
+            "mainRoute": "I-71 at Socialville-Foster Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/CLE174-L.jpg",
+            "mainRoute": "I-77 at Ridgewood Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/US-250_at_US-42.jpg",
+            "mainRoute": "US-250 at US-42 / Main St"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CMH/CMH71-665.jpg",
+            "mainRoute": "I-71 at SR-665"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/artimis/FEMM169.jpg",
+            "mainRoute": "Mason Montgomery Rd & Irwin Simpson Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us:443/images/rest_area/I-75_Auglaize_SB-1.jpg",
+            "mainRoute": "I-75 SB Auglaize county rest area"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/CLE144-L.jpg",
+            "mainRoute": "I-90 at W of E 140th St"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CMH/Fifth-Grandview.jpg",
+            "mainRoute": "(City of Columbus) Fifth Ave at Grandview Ave"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/toledo/I-280_at_SR-25.jpg",
+            "mainRoute": "I-280 at SR-25, Greenbelt Pkwy"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/dayton/I-675_at_Wilmington_Pike.jpg",
+            "mainRoute": "I-675 at Wilmington Pike"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/CLE172-L.jpg",
+            "mainRoute": "I-77 at Schocalog Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/artimis/SR-562_at_Paddock_Rd.jpg",
+            "mainRoute": "SR-562 at Paddock Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/CLE063.jpg",
+            "mainRoute": "I-71 at I-271"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/Dayton/I-75_at_CR25A.jpg",
+            "mainRoute": "I-75 at CR-25A (Tipp City)"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/toledo/I-75_at_I-475_North_side.jpg",
+            "mainRoute": "I-75 at I-475 (North side)"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/D01/SR309-Hartzler.jpg",
+            "mainRoute": "SR-309 at Hartzler Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/D11/d11-001.jpg",
+            "mainRoute": "I-70 at SR-149"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/artimis/747_Hutzleman.jpg",
+            "mainRoute": "SR-747 at Hutzelman Way"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/CLE100-L.jpg",
+            "mainRoute": "I-90 at US-322 / Chester Ave"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/CLE140a-L.jpg",
+            "mainRoute": "I-77 at Greensburg Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/CLE057-L.jpg",
+            "mainRoute": "I-71 at SR-3 / W 25th St"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/toledo/Airport_Hwy_at_McCord_Rd.jpg",
+            "mainRoute": "Airport Hwy at S McCord Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/artimis/wolfangel19.jpg",
+            "mainRoute": "SR-125 at Wolfangel Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/dayton/US-35_at_S_Keowee_St.jpg",
+            "mainRoute": "US-35 at S Keowee St"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/CLE059-L.jpg",
+            "mainRoute": "I-71 at Clark Ave, N of SR-176"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CMH/Livingston-Parsons.jpg",
+            "mainRoute": "(City of Columbus) Livingston Ave at Parsons Ave"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us:443/images/D10/D10-001.jpg",
+            "mainRoute": "I-77 at SR-7"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/toledo/I-75_at_N_of_Buck_Rd.jpg",
+            "mainRoute": "I-75 at North of Buck Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/cincinnati/I-71_at_Jeremiah_Morrow_Bridge.jpg",
+            "mainRoute": "I-71 at Jeremiah Morrow Bridge"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CMH/James-Main.jpg",
+            "mainRoute": "(City of Columbus) James Rd at Main St"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/CLE079-L.jpg",
+            "mainRoute": "I-77 at Pershing Ave"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/toledo/US-23_at_S_of_SR-51.jpg",
+            "mainRoute": "US-23 at S of SR-51"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us:443/images/CMH/CCTV2216.jpg",
+            "mainRoute": "US-23 at Cheshire Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/CLE144a.jpg",
+            "mainRoute": "I-77 at Graybill Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/artimis/CCTV149.jpg",
+            "mainRoute": "I-74 at Wesselman Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/toledo/I-75_at_CR-99.jpg",
+            "mainRoute": "I-75 at CR-99"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/CLE162-L.jpg",
+            "mainRoute": "I-77 at E Archwood Ave"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/I-80_at_Loganway_Ave.jpg",
+            "mainRoute": "I-80 at Loganway Ave"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/US-250_at_Hull_Rd.jpg",
+            "mainRoute": "US-250 at Hull Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/CLE224.jpg",
+            "mainRoute": "I-480 at Transportation Blvd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/CLE037.jpg",
+            "mainRoute": "I-71 at I-480"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CMH/I-270_at_E_Main_St.jpg",
+            "mainRoute": "(City of Columbus) I-270 at E Main St"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/Dayton/I-675_at_Colonel_Glenn_Highway.jpg",
+            "mainRoute": "I-675 at Colonel Glenn Highway"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/dayton/I-70_at_US-68.jpg",
+            "mainRoute": "I-70 at US-68"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us:443/images/D05/d05-001.jpg",
+            "mainRoute": "I-70 at SR-209"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/toledo/I-75_at_North_Detroit_Ave.jpg",
+            "mainRoute": "I-75 at North Detroit Ave"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/dayton/I-675_at_SR-48.jpg",
+            "mainRoute": "I-675 at SR-48/Far Hills Ave"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/artimis/CCTV091a-L.jpg",
+            "mainRoute": "I-75 at Linn St"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/CLE024-L.jpg",
+            "mainRoute": "SR-8 at E Tallmadge Ave"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/CLE176-L.jpg",
+            "mainRoute": "I-77 at Brunsdorph Dr"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/CLE3098.jpg",
+            "mainRoute": "I-90 at Vrooman Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/CLE015-L.jpg",
+            "mainRoute": "SR-8 at I-80"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/artimis/FEMM178.jpg",
+            "mainRoute": "Fields Ertel Rd & Union Cemetary Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/dayton/I-75_at_South_of_I-675.jpg",
+            "mainRoute": "I-75 at South of I-675"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us:443/images/D03/d03-I-90_at_SR-57.jpg",
+            "mainRoute": "I-90 at SR-57"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/US-23NB_Trench_North.jpg",
+            "mainRoute": "US-23 NB Trench North end, near Flint Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CMH/britton-tuttle.jpg",
+            "mainRoute": "(City of Columbus) Tuttle Crossing Blvd at Britton Pkwy"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/cincinnati/I-75_at_Clifton_Ave.jpg",
+            "mainRoute": "I-75 at Clifton Ave"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us:443/images/D09/SR-104_at_SR-348.jpg",
+            "mainRoute": "SR-104 at SR-348"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/US-250_at_SR-2_WB_Ramp.jpg",
+            "mainRoute": "US-250 at SR-2 WB Ramp"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/CLE189-L.jpg",
+            "mainRoute": "I-271 at SR-14 / Broadway Ave"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/dayton/Day1069.jpg",
+            "mainRoute": "I-70 at Arlington Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/artimis/withamsville3.jpg",
+            "mainRoute": "SR-125 at Glen Este-Withamsville Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/dayton/US-35_at_Smithville_Rd.jpg",
+            "mainRoute": "US-35 at Smithville Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/CLE029a.jpg",
+            "mainRoute": "SR-8 at Howe Ave"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/US-250_at_Strub_Rd.jpg",
+            "mainRoute": "US-250 at Strub Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/toledo/I-475_at_Secor_Rd.jpg",
+            "mainRoute": "I-475 at Secor Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CMH/Hudson-Indianola.jpg",
+            "mainRoute": "(City of Columbus) Hudson St at Indianola Ave"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/D11/D11-006.jpg",
+            "mainRoute": "I-70 at I-470"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/toledo/I-75_at_Wales_Rd.jpg",
+            "mainRoute": "I-75 at Wales Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CMH/CCTV2145.jpg",
+            "mainRoute": "US-23 at SR-95"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/artimis/9mile67.jpg",
+            "mainRoute": "SR-125 at Nine Mile/Tobasco Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CMH/SR-315SB-Kinnear.jpg",
+            "mainRoute": "(City of Columbus) SR-315 SB ramp at Kinnear Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/CLE126-L.jpg",
+            "mainRoute": "I-90 at Fulton Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/toledo/I-75_at_Collingwood_Blvd.jpg",
+            "mainRoute": "I-75 at Collingwood Blvd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/artimis/Colerain_Ave_at_SR-126_WB.jpg",
+            "mainRoute": "Colerain Ave at SR-126 WB Ramp"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CMH/CCTV2146.jpg",
+            "mainRoute": "I-270 at Davidson Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/artimis/nordyke179.jpg",
+            "mainRoute": "SR-125 at Nordyke Rd "
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/toledo/I-75_at_SR-25.jpg",
+            "mainRoute": "I-75 at SR-25, Anthony Wayne Trail"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CMH/High-Rathmell.jpg",
+            "mainRoute": "(City of Columbus) High St at Rathmell Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us:443/images/toledo/I-75_at_I-280.jpg",
+            "mainRoute": "I-75 at I-280"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/CLE152-L.jpg",
+            "mainRoute": "I-90 at Babbit Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/dayton/I-70_at_SR-4.jpg",
+            "mainRoute": "I-70 at SR-4 / SR-235"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/artimis/CCTV148.jpg",
+            "mainRoute": "I-74 at I-275 N"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CHI/CHI010.jpg",
+            "mainRoute": "US-35 at SR-159"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CHI/CHI012.jpg",
+            "mainRoute": "US-35 at SR-159 (East)"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CHI/CHI011.jpg",
+            "mainRoute": "US-35 at SR-159 (West)"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CMH/Broad-Hague.jpg",
+            "mainRoute": "(City of Columbus) Broad St at Hague Ave"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/artimis/CCTV062.jpg",
+            "mainRoute": "I-275 at US-50 Underpass (E of OH/IN Line)"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CMH/Livingston-Lockbourne.jpg",
+            "mainRoute": "(City of Columbus) Livingston Ave at Lockbourne Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CMH/I-71_at_Stringtown.jpg",
+            "mainRoute": "I-71 at Stringtown Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/artimis/compton195.jpg",
+            "mainRoute": "US-27 at Compton Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/US-23NB_Trench_South.jpg",
+            "mainRoute": "US-23 NB Trench South end, near Campus View Blvd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/CLE182.jpg",
+            "mainRoute": "I-77 at N Cleveland Massillon Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/toledo/I-75_at_Buck_Rd.jpg",
+            "mainRoute": "I-75 at Buck Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/toledo/I-75_at_Buck_Rd_2.jpg",
+            "mainRoute": "I-75 at Buck Rd (Signals) lower camera"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/CLE085-L.jpg",
+            "mainRoute": "I-77 at S of I-90"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/artimis/US-27_Raeann.jpg",
+            "mainRoute": "US-27/Colerain Ave at Raeann Dr"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/CLE124a.jpg",
+            "mainRoute": "I-77 at US-62"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/artimis/CCTV4160.jpg",
+            "mainRoute": "I-71 at N of Fields Ertel Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/CLE097-L.jpg",
+            "mainRoute": "I-76 at N Canton Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/dayton/I-70_at_SR-202.jpg",
+            "mainRoute": "I-70 at SR-202 / Old Troy Pike"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CMH/CCTV2148.jpg",
+            "mainRoute": "I-71 at Bale Kenyon Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CMH/Morse-Stelzer.jpg",
+            "mainRoute": "(City of Columbus) Morse Rd at Stelzer Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/toledo/I-75_at_SR-795.jpg",
+            "mainRoute": "I-75 at SR-795, Avenue Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CMH/CMH128-L.jpg",
+            "mainRoute": "I-70/I-71/I-670 Rhodes Tower (Northeast)"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CMH/CMH126-L.jpg",
+            "mainRoute": "I-70/I-71/I-670 Rhodes Tower (Southeast)"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/CLE052-L.jpg",
+            "mainRoute": "SR-21 at CR-83 / Ridgewood Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CMH/Frantz-Tuttle.jpg",
+            "mainRoute": "(City of Columbus) Tuttle Crossing Blvd at Frantz Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/CLE178-L.jpg",
+            "mainRoute": "I-77 at SR-21"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/rest_area/US33-WB.jpg",
+            "mainRoute": "US-33 WB rest area"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/artimis/independence131.jpg",
+            "mainRoute": "SR-125 at Independence Dr"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CMH/Brice-Chatterton-Refugee.jpg",
+            "mainRoute": "(City of Columbus) Brice Rd at Chatterton/Refugee Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/CCTV6072.jpg",
+            "mainRoute": "I-76 at I-80"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/dayton/I-675_at_US-35.jpg",
+            "mainRoute": "I-675 at US-35 / Dayton Xenia Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/artimis/SR-562_at_West_of_Reading_Rd.jpg",
+            "mainRoute": "SR-562 at West of Reading Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/CLE6069.jpg",
+            "mainRoute": "I-80 at SR-193"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us:443/images/D01/I-75_at_US-68_SR-15.jpg",
+            "mainRoute": "I-75 at US-68 / SR-15"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/toledo/I-475_at_Talmadge_Rd.jpg",
+            "mainRoute": "I-475 at Talmadge Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CMH/Stelzer-InternationalGtwyWB.jpg",
+            "mainRoute": "(City of Columbus) Stelzer Rd at International Gateway WB"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CMH/SR104-Lockbourne.jpg",
+            "mainRoute": "(City of Columbus) SR-104 at Lockbourne Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/artimis/SR-125_Bach_Buxton.jpg",
+            "mainRoute": "SR-125 at Bach Buxton Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CMH/Gemini-Orion.jpg",
+            "mainRoute": "Gemini Place at Orion Place"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/I-77_at_Wallings_Rd.jpg",
+            "mainRoute": "I-77 at Wallings Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/artimis/Cherry163.jpg",
+            "mainRoute": "SR-125 at Cherry Grove"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/toledo/I-475_at_Douglas_Rd.jpg",
+            "mainRoute": "I-475 at Douglas Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/D05/D05-005.jpg",
+            "mainRoute": "I-70 at SR-37"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/CLE128.jpg",
+            "mainRoute": "I-90 at Kenilworth Ave"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CMH/Georgesville-Hall.jpg",
+            "mainRoute": "(City of Columbus) Georgesville Rd at Hall Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/dayton/I-75_at_W_Riverview_Ave.jpg",
+            "mainRoute": "I-75 at W Riverview Ave"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CMH/I-270_at_McCutcheon_Rd.jpg",
+            "mainRoute": "I-270 at McCutcheon Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/D05/SR-37_SR-204.jpg",
+            "mainRoute": "SR-37 at SR-204"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us:443/images/CLE/CCTV3011-5.jpg",
+            "mainRoute": "I-71 at W 130th St"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/toledo/I-475_at_Nebraska_Ave.jpg",
+            "mainRoute": "I-475 at Nebraska Ave"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us:443/images/D11/US-22_SR-7_SR-213_Quad.jpg",
+            "mainRoute": "US-22/SR-7 at SR-213"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/dayton/I-675_at_Dayton_Yellow_Springs_Rd.jpg",
+            "mainRoute": "I-675 at Dayton Yellow Springs Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/CLE065.jpg",
+            "mainRoute": "I-71 at SR-303"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CMH/Cleveland-Morse.jpg",
+            "mainRoute": "(City of Columbus) Cleveland Ave at Morse Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CMH/Refugee-Chatterton-NoeBixby.jpg",
+            "mainRoute": "(City of Columbus) Refugee/Chatterton Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/toledo/US-23_at_SR-51.jpg",
+            "mainRoute": "US-23 at SR-51 / Monroe St"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/CLE136-L.jpg",
+            "mainRoute": "I-90 at MLK Jr Dr"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CMH/Brice-Gender.jpg",
+            "mainRoute": "(City of Columbus) Brice Rd at Gender Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us:443/images/toledo/SR2-WB-Approach.jpg",
+            "mainRoute": "SR-2 South of Thomas A. Edison Memorial Bridge"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us:443/images/D05/I-70_at_I-77.jpg",
+            "mainRoute": "I-70 at I-77"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/CLE242-L.jpg",
+            "mainRoute": "I-490 E of I-71 / I-90"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/artimis/I-75_S_of_Hopple.jpg",
+            "mainRoute": "I-75 at S of Hopple St"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/toledo/I-280_at_Seaman_Rd.jpg",
+            "mainRoute": "I-280 at Seaman Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/dayton/I-75_at_Third_St.jpg",
+            "mainRoute": "I-75 at 3rd Street / Montgomery County Building"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/CLE140-L.jpg",
+            "mainRoute": "I-90 at E 105th St / Bratenahl Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/CLE084-L.jpg",
+            "mainRoute": "I-76 at Battles Ave"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CMH/US-33_at_Pickerington_Rd.jpg",
+            "mainRoute": "US-33 at Pickerington Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us:443/images/CMH/CMH129.jpg",
+            "mainRoute": "I-71 at I-670"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/artimis/SR-125_Nagel.jpg",
+            "mainRoute": "SR-125 at Nagel Rd (South)"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/CLE201-L.jpg",
+            "mainRoute": "I-271 at US-322 / Mayfield Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/artimis/CCTV4153.jpg",
+            "mainRoute": "I-275 at Barg Salt Run Rd"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/CLE090.jpg",
+            "mainRoute": "I-76 at Wolf Ledges Pky"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CMH/Main-McNaughten.jpg",
+            "mainRoute": "(City of Columbus) Main St at McNaughten"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/artimis/SR-28_at_I-275_NB.jpg",
+            "mainRoute": "SR-28 at I-275 NB Ramp"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/CLE173-L.jpg",
+            "mainRoute": "SR-176 at Crestline Ave"
+        },
+        {
+            "largeUrl": "https://itscameras.dot.state.oh.us/images/dayton/I-70_at_SR-201.jpg",
+            "mainRoute": "I-70 at SR-201 / Brandt Pike"
+        }
+    ]
+}
