@@ -25,7 +25,7 @@
           </svg>
         </a>
       </div>
-      <small class="text-slate-500">Copyright &copy; {{ year }} Morcomputation</small>
+      <small class="text-slate-500">Copyright &copy; {{ year }} Morales</small>
     </div>
   </footer>
 </template>

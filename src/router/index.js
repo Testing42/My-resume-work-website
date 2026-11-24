@@ -7,7 +7,7 @@ const routes = [
   {
     path: '/',
     component: Home,
-    meta: { title: 'Home', description: 'Morcomputation - Andres Morales, software developer and IT professional.' },
+    meta: { title: 'Home', description: 'Morales - Andres Morales, software developer and IT professional.' },
   },
   {
     path: '/codeSamples',
@@ -27,7 +27,7 @@ const router = createRouter({
 });
 
 router.afterEach((to) => {
-  document.title = to.meta.title ? `${to.meta.title} | Morcomputation` : 'Morcomputation';
+  document.title = to.meta.title ? `${to.meta.title} | Morales` : 'Morales';
   const metaDescription = document.querySelector('meta[name="description"]');
   if (metaDescription && to.meta.description) {
     metaDescription.setAttribute('content', to.meta.description);

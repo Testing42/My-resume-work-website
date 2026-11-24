@@ -13,8 +13,8 @@
           Hi, I'm <span class="bg-gradient-to-r from-brand-light to-fuchsia-400 bg-clip-text text-transparent">Andres Morales</span>
         </h1>
         <p class="max-w-2xl mx-auto text-slate-300 text-lg leading-relaxed">
-          Based in the Columbus Metro Area. If you need a Frontend Developer, Systems Developer,
-          Linux Admin, Windows Admin, or Automation Developer — let's talk.
+          Based in the Columbus Metro Area. If you need a Software Developer, Systems Engineer,
+          Linux Admin, Windows Admin, Microsoft 365 admin, Powerapps Engineer, and DevOps — let's talk.
         </p>
         <div class="mt-8 flex justify-center gap-4">
           <router-link
@@ -111,7 +111,7 @@ export default {
         {
           icon: '🧰',
           title: 'Key Programs Used',
-          body: 'Azure, AWS, VMware, Active Directory, Group Policy, Git, ServiceNow, Splunk, Ollama, Docker, SQL Databases'
+          body: 'Azure, AWS, VMware, Active Directory, Group Policy, Git, ServiceNow, Splunk, Ollama, Docker, SQL Databases, Azure Runbooks, Logic Apps, Powerautomate'
         },
         {
           icon: '🎓',
