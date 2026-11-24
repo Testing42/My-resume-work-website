@@ -111,7 +111,7 @@ export default {
         {
           icon: '🧰',
           title: 'Key Programs Used',
-          body: 'Azure, AWS, VMware, Active Directory, Group Policy, Git, ServiceNow, Splunk, Ollama, Docker, SQL Databases
+          body: 'Azure, AWS, VMware, Active Directory, Group Policy, Git, ServiceNow, Splunk, Ollama, Docker, SQL Databases'
         },
         {
           icon: '🎓',
