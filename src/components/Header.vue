@@ -6,7 +6,7 @@
           class="w-9 h-9 rounded-lg bg-gradient-to-br from-brand-dark to-brand flex items-center justify-center text-white font-extrabold shadow-lg shadow-brand/30"
         >M</span>
         <span class="text-lg font-bold text-white group-hover:text-brand-light transition-colors">
-          Morcomputation
+          Welcome
         </span>
       </router-link>
 

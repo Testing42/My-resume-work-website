@@ -95,28 +95,28 @@ export default {
       skills: [
         {
           icon: '⌨️',
-          title: 'Programming Languages',
-          body: 'C#, Python, JavaScript, PHP, PowerShell, Bash, CSS, HTML, MySQL, and SQL.',
+          title: 'Programming Languages & Datatypes',
+          body: 'Golang, Terraform, C#, Python, JavaScript, PHP, PowerShell, Bash, CSS, HTML, Json, XML, MySQL, and SQL.',
         },
         {
           icon: '🖥️',
           title: 'Operating Systems',
-          body: 'Linux, Windows OS, Apple OS.',
+          body: 'Linux and Windows Servers',
         },
         {
           icon: '🛠️',
           title: 'Type of Work Done',
-          body: 'Telecommunication infrastructure, infrastructure support, front end development, database querying & creation, network support, automation design, Linux & Windows server setup and maintenance, backend & fullstack development, application support, identity access management, security.',
+          body: 'Telecommunication Infrastructure, Software Development, Infrastructure Engineering, Systems Engineering, Azure administration, AWS Administration, AI engineering, Windows Administration, Linux Administration',
         },
         {
           icon: '🧰',
           title: 'Key Programs Used',
-          body: 'Azure, VMware, Intune, Active Directory, Group Policy, Git, ServiceNow, iSupport, print management, ManageEngine, Splunk, QRadar, Visual Studio, VS Code, FTP creation & configuration, API implementation.',
+          body: 'Azure, AWS, VMware, Active Directory, Group Policy, Git, ServiceNow, Splunk, Ollama, Docker, SQL Databases
         },
         {
           icon: '🎓',
           title: 'Degrees & Certifications',
-          body: 'Columbus State Community College: Associate of Software Development. CompTIA A+ Certification. CompTIA Network+ Certification.',
+          body: 'Columbus State Community College: Associate of Software Development. CompTIA A+ Certification. CompTIA Network+ Certification. CompTIA Cloud+ Certification. Microsoft Certified: Azure Fundamentals. Microsoft Certified: Power Platform Fundamentals',
         },
         {
           icon: '📚',
